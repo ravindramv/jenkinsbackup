@@ -1,0 +1,216 @@
+Started by user [8mha:////4G/ED/a2E1oyG2DABrxXNFZyOye0lfroL5cY14296M/PAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYB/dLi1CL9osSyzLyUosTcMgBhXnykxQAAAA==[0mravindra m v
+Obtained Jenkinsfile2 from git https://github.com/ravindramv/hello-world-war.git
+[8mha:////4MOrpmtGVrZTrRVF0VTcO4rfDdVgLsuB0t/4XZAYBoaFAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4FX3jJlcMN+0Sr/GUMCizbWbz5I4nZPJx76ryPtctcdnAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4PaPwyA2r+pC59kwccyvb6StnAc6jjBWaKB5L6wS3t+wAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZR/eT83ILSktQi/ZTUgpz8yjyga/UBkJK91coAAAA=[0mdeploynode in /home/node/workspace/jfrogautomateartifactstore
+[8mha:////4PPEA/rs9yRxNoYyk3DjPGiV+PNfXbuSEgT48aMhcL17AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4KQmKRs2Vs95cYJPUPFyvkL+iDdjXHncfW5KPt3JBD8mAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4Mx+U2NJ2L83fIgGlyNpXaqnJ7FjMTQVFE85ByzqUliYAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4Gfze4lTnLBRbnirYnUo4rDyD6U1njwSaIU7SUrtR83IAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/ravindramv/hello-world-war.git
+ > git init /home/node/workspace/jfrogautomateartifactstore # timeout=10
+Fetching upstream changes from https://github.com/ravindramv/hello-world-war.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/ravindramv/hello-world-war.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/ravindramv/hello-world-war.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Checking out Revision 0cc436f2bdc491da99a8901b33b7653f08497bb2 (refs/remotes/origin/master)
+Commit message: "Update Jenkinsfile2"
+First time build. Skipping changelog.
+[8mha:////4ND7J3+7NySPrBY4loWfIrFmZTEHSTG0K1j358dYIDBDAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4PA5NeJzskGdaK5qhudhb47mxZjLXLxnbnM0kB6Z+4gfAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4JBSKYrym9xOGo7VyDFu0mL5MGxVs/aO62Y4SPbPEPIOAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4LfJ7YWWjZ6WD2xWxRu8nDpndNTovt6ePNyg3Z9GD68XAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4K13AV+jBpBEQIzo9fka+PTE0ILa7xye1FmOjIo3agX/AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4H1kFdIHgD4P/G4IenJrJyO5xf28Wil10rHCmMrth/YvAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (my build)
+[8mha:////4A6Dz3zOq7GC7MijvOKPERU3hf4ZOFPXQ0SWhOetc2M4AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] sh
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0cc436f2bdc491da99a8901b33b7653f08497bb2 # timeout=10
++ echo 4
+4
+[8mha:////4ClB9gq0oCj8cOuHeLFLHEvo+wibGYRdpBQpN7lNgm38AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN0uFte2+AAAA[0m[Pipeline] sh
++ mvn deploy
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mcom.efsavage:hello-world-war[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Hello World Web Application Repository $(BUILD_NUMBER)[m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+Downloading from central: https://ravindramv.jfrog.io/artifactory/libs-release/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.pom
+Progress (1): 3.4/6.4 kBProgress (1): 6.2/6.4 kBProgress (1): 6.4 kB                        Downloaded from central: https://ravindramv.jfrog.io/artifactory/libs-release/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.pom (6.4 kB at 3.3 kB/s)
+Downloading from central: https://ravindramv.jfrog.io/artifactory/libs-release/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.jar
+Progress (1): 3.4/27 kBProgress (1): 6.2/27 kBProgress (1): 9.0/27 kBProgress (1): 12/27 kB Progress (1): 15/27 kBProgress (1): 17/27 kBProgress (1): 20/27 kBProgress (1): 23/27 kBProgress (1): 26/27 kBProgress (1): 27 kB                      Downloaded from central: https://ravindramv.jfrog.io/artifactory/libs-release/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.jar (27 kB at 29 kB/s)
+Downloading from central: https://ravindramv.jfrog.io/artifactory/libs-release/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.pom
+Progress (1): 3.4/5.6 kBProgress (1): 5.6 kB                        Downloaded from central: https://ravindramv.jfrog.io/artifactory/libs-release/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.pom (5.6 kB at 8.1 kB/s)
+Downloading from central: https://ravindramv.jfrog.io/artifactory/libs-release/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom
+Progress (1): 3.4/13 kBProgress (1): 6.2/13 kBProgress (1): 9.0/13 kBProgress (1): 12/13 kB Progress (1): 13 kB                      Downloaded from central: https://ravindramv.jfrog.io/artifactory/libs-release/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom (13 kB at 5.2 kB/s)
+Downloading from central: https://ravindramv.jfrog.io/artifactory/libs-release/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.jar
+Progress (1): 3.4/27 kBProgress (1): 6.2/27 kBProgress (1): 9.0/27 kBProgress (1): 12/27 kB Progress (1): 15/27 kBProgress (1): 17/27 kBProgress (1): 20/27 kBProgress (1): 23/27 kBProgress (1): 26/27 kBProgress (1): 27 kB                      Downloaded from central: https://ravindramv.jfrog.io/artifactory/libs-release/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.jar (27 kB at 37 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mhello-world-war[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/node/workspace/jfrogautomateartifactstore/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mhello-world-war[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mhello-world-war[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/node/workspace/jfrogautomateartifactstore/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mhello-world-war[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mhello-world-war[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-war-plugin:2.1.1:war[m [1m(default-war)[m @ [36mhello-world-war[0;1m ---[m
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/home/node/.m2/repository/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.jar) to field java.util.Properties.defaults
+WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Packaging webapp
+[[1;34mINFO[m] Assembling webapp [hello-world-war] in [/home/node/workspace/jfrogautomateartifactstore/target/hello-world-war-$(BUILD_NUMBER)]
+[[1;34mINFO[m] Processing war project
+[[1;34mINFO[m] Copying webapp resources [/home/node/workspace/jfrogautomateartifactstore/src/main/webapp]
+[[1;34mINFO[m] Webapp assembled in [41 msecs]
+[[1;34mINFO[m] Building war: /home/node/workspace/jfrogautomateartifactstore/target/hello-world-war-$(BUILD_NUMBER).war
+[[1;34mINFO[m] WEB-INF/web.xml already added, skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mhello-world-war[0;1m ---[m
+Downloading from central: https://ravindramv.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.pom
+Progress (1): 2.5 kB                    Downloaded from central: https://ravindramv.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.pom (2.5 kB at 3.6 kB/s)
+Downloading from central: https://ravindramv.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus/3.1/plexus-3.1.pom
+Progress (1): 3.4/19 kBProgress (1): 6.2/19 kBProgress (1): 9.0/19 kBProgress (1): 12/19 kB Progress (1): 15/19 kBProgress (1): 17/19 kBProgress (1): 19 kB                      Downloaded from central: https://ravindramv.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus/3.1/plexus-3.1.pom (19 kB at 26 kB/s)
+Downloading from central: https://ravindramv.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.pom
+Progress (1): 1.1 kB                    Downloaded from central: https://ravindramv.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.pom (1.1 kB at 1.5 kB/s)
+Downloading from central: https://ravindramv.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus-components/1.1.7/plexus-components-1.1.7.pom
+Progress (1): 3.4/5.0 kBProgress (1): 5.0 kB                        Downloaded from central: https://ravindramv.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus-components/1.1.7/plexus-components-1.1.7.pom (5.0 kB at 7.2 kB/s)
+Downloading from central: https://ravindramv.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus/1.0.8/plexus-1.0.8.pom
+Progress (1): 3.4/6.6 kBProgress (1): 6.2/6.6 kBProgress (1): 6.6 kB                        Downloaded from central: https://ravindramv.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus/1.0.8/plexus-1.0.8.pom (6.6 kB at 7.4 kB/s)
+Downloading from central: https://ravindramv.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.pom
+Progress (1): 3.3/6.4 kBProgress (1): 6.1/6.4 kBProgress (1): 6.4 kB                        Downloaded from central: https://ravindramv.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.pom (6.4 kB at 8.2 kB/s)
+Downloading from central: https://ravindramv.jfrog.io/artifactory/libs-release/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar
+Downloading from central: https://ravindramv.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.jar
+Downloading from central: https://ravindramv.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.jar
+Progress (1): 3.4/38 kBProgress (1): 6.2/38 kBProgress (1): 9.0/38 kBProgress (1): 12/38 kB Progress (1): 15/38 kBProgress (1): 17/38 kBProgress (1): 20/38 kBProgress (1): 23/38 kBProgress (1): 26/38 kBProgress (1): 29/38 kBProgress (1): 31/38 kBProgress (1): 34/38 kBProgress (1): 37/38 kBProgress (1): 38 kB                      Downloaded from central: https://ravindramv.jfrog.io/artifactory/libs-release/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar (38 kB at 52 kB/s)
+Progress (1): 3.4/12 kBProgress (1): 6.2/12 kBProgress (1): 9.0/12 kBProgress (1): 12/12 kB Progress (1): 12 kB                      Downloaded from central: https://ravindramv.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.jar (12 kB at 8.1 kB/s)
+Progress (1): 4.1/230 kBProgress (1): 8.2/230 kBProgress (1): 12/230 kB Progress (1): 16/230 kBProgress (1): 19/230 kBProgress (1): 23/230 kBProgress (1): 27/230 kBProgress (1): 31/230 kBProgress (1): 34/230 kBProgress (1): 38/230 kBProgress (1): 42/230 kBProgress (1): 46/230 kBProgress (1): 51/230 kBProgress (1): 55/230 kBProgress (1): 59/230 kBProgress (1): 63/230 kBProgress (1): 67/230 kBProgress (1): 69/230 kBProgress (1): 73/230 kBProgress (1): 77/230 kBProgress (1): 81/230 kBProgress (1): 85/230 kBProgress (1): 89/230 kBProgress (1): 94/230 kBProgress (1): 98/230 kBProgress (1): 102/230 kBProgress (1): 104/230 kBProgress (1): 108/230 kBProgress (1): 112/230 kBProgress (1): 116/230 kBProgress (1): 120/230 kBProgress (1): 124/230 kBProgress (1): 128/230 kBProgress (1): 132/230 kBProgress (1): 137/230 kBProgress (1): 139/230 kBProgress (1): 143/230 kBProgress (1): 147/230 kBProgress (1): 151/230 kBProgress (1): 155/230 kBProgress (1): 159/230 kBProgress (1): 163/230 kBProgress (1): 167/230 kBProgress (1): 171/230 kBProgress (1): 173/230 kBProgress (1): 177/230 kBProgress (1): 182/230 kBProgress (1): 186/230 kBProgress (1): 190/230 kBProgress (1): 194/230 kBProgress (1): 198/230 kBProgress (1): 202/230 kBProgress (1): 206/230 kBProgress (1): 208/230 kBProgress (1): 212/230 kBProgress (1): 216/230 kBProgress (1): 221/230 kBProgress (1): 225/230 kBProgress (1): 229/230 kBProgress (1): 230 kB                        Downloaded from central: https://ravindramv.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.jar (230 kB at 64 kB/s)
+[[1;34mINFO[m] Installing /home/node/workspace/jfrogautomateartifactstore/target/hello-world-war-$(BUILD_NUMBER).war to /home/node/.m2/repository/com/efsavage/hello-world-war/$(BUILD_NUMBER)/hello-world-war-$(BUILD_NUMBER).war
+[[1;34mINFO[m] Installing /home/node/workspace/jfrogautomateartifactstore/pom.xml to /home/node/.m2/repository/com/efsavage/hello-world-war/$(BUILD_NUMBER)/hello-world-war-$(BUILD_NUMBER).pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-deploy-plugin:2.7:deploy[m [1m(default-deploy)[m @ [36mhello-world-war[0;1m ---[m
+Downloading from central: https://ravindramv.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar
+Progress (1): 4.1/251 kBProgress (1): 8.2/251 kBProgress (1): 12/251 kB Progress (1): 16/251 kBProgress (1): 19/251 kBProgress (1): 23/251 kBProgress (1): 27/251 kBProgress (1): 31/251 kBProgress (1): 34/251 kBProgress (1): 38/251 kBProgress (1): 42/251 kBProgress (1): 46/251 kBProgress (1): 51/251 kBProgress (1): 55/251 kBProgress (1): 59/251 kBProgress (1): 63/251 kBProgress (1): 67/251 kBProgress (1): 69/251 kBProgress (1): 73/251 kBProgress (1): 77/251 kBProgress (1): 81/251 kBProgress (1): 85/251 kBProgress (1): 89/251 kBProgress (1): 94/251 kBProgress (1): 98/251 kBProgress (1): 102/251 kBProgress (1): 104/251 kBProgress (1): 108/251 kBProgress (1): 112/251 kBProgress (1): 116/251 kBProgress (1): 120/251 kBProgress (1): 124/251 kBProgress (1): 128/251 kBProgress (1): 132/251 kBProgress (1): 137/251 kBProgress (1): 141/251 kBProgress (1): 143/251 kBProgress (1): 147/251 kBProgress (1): 151/251 kBProgress (1): 155/251 kBProgress (1): 158/251 kBProgress (1): 162/251 kBProgress (1): 166/251 kBProgress (1): 170/251 kBProgress (1): 174/251 kBProgress (1): 179/251 kBProgress (1): 183/251 kBProgress (1): 187/251 kBProgress (1): 191/251 kBProgress (1): 195/251 kBProgress (1): 197/251 kBProgress (1): 201/251 kBProgress (1): 206/251 kBProgress (1): 210/251 kBProgress (1): 214/251 kBProgress (1): 218/251 kBProgress (1): 222/251 kBProgress (1): 226/251 kBProgress (1): 230/251 kBProgress (1): 234/251 kBProgress (1): 238/251 kBProgress (1): 242/251 kBProgress (1): 246/251 kBProgress (1): 251/251 kBProgress (1): 251 kB                        Downloaded from central: https://ravindramv.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar (251 kB at 203 kB/s)
+Uploading to central: https://ravindramv.jfrog.io/artifactory/libs-release/com/efsavage/hello-world-war/$(BUILD_NUMBER)/hello-world-war-$(BUILD_NUMBER).war
+Progress (1): 2.6 kB                    Uploaded to central: https://ravindramv.jfrog.io/artifactory/libs-release/com/efsavage/hello-world-war/$(BUILD_NUMBER)/hello-world-war-$(BUILD_NUMBER).war (2.6 kB at 1.6 kB/s)
+Uploading to central: https://ravindramv.jfrog.io/artifactory/libs-release/com/efsavage/hello-world-war/$(BUILD_NUMBER)/hello-world-war-$(BUILD_NUMBER).pom
+Progress (1): 1.4 kB                    Uploaded to central: https://ravindramv.jfrog.io/artifactory/libs-release/com/efsavage/hello-world-war/$(BUILD_NUMBER)/hello-world-war-$(BUILD_NUMBER).pom (1.4 kB at 861 B/s)
+Downloading from central: https://ravindramv.jfrog.io/artifactory/libs-release/com/efsavage/hello-world-war/maven-metadata.xml
+Progress (1): 485 B                   Downloaded from central: https://ravindramv.jfrog.io/artifactory/libs-release/com/efsavage/hello-world-war/maven-metadata.xml (485 B at 800 B/s)
+Uploading to central: https://ravindramv.jfrog.io/artifactory/libs-release/com/efsavage/hello-world-war/maven-metadata.xml
+Progress (1): 447 B                   Uploaded to central: https://ravindramv.jfrog.io/artifactory/libs-release/com/efsavage/hello-world-war/maven-metadata.xml (447 B at 293 B/s)
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  25.326 s
+[[1;34mINFO[m] Finished at: 2022-12-02T13:46:13Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4HYFFiMm5dvmlFlyWUOvB8+4XTvyBNGCWqZx91EEdk8bAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGI1pjGvgAAAA==[0m[Pipeline] sh
++ ls
+Dockerfile
+Jenkinsfile
+Jenkinsfile2
+README.md
+dist
+jenkins
+pom.xml
+src
+target
+[8mha:////4Lq/FFyTPbLGa3Mt23xE2HWAOzeeGMNev+yInHUhj1bUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQG7xuaSvgAAAA==[0m[Pipeline] }
+[8mha:////4KyUQQ6EnIWzTIaMJX2krrPytP64P6Bv3+R7gCPrEvlJAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiqJAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N/hEtxS+AAAA[0m[Pipeline] // stage
+[8mha:////4Mgw5IHfDxAko++1JpyvEnnRsfsnkBvr17jJR6Kywu4zAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUHRFiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPrPxt8cIAAAA=[0m[Pipeline] stage
+[8mha:////4PZDpAK1+j/iQ6Y71sPe/EID9gYvcJuGIto4p3Kktc4pAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] { (my deploy)
+[8mha:////4Pk6ZRetZrgY8Ke1Aoh55DDZ65n2N5rfmLf0TFYwMDeRAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] node
+Running on [8mha:////4D4fdLAq5g8ArTucXY2brnYRYC08OvllPElPYT+lujBiAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYR/eT83ILSktQi/bTMouKSPKBj9QFvTiWkyQAAAA==[0mfirstnode in /home/devops/workspace/jfrogautomateartifactstore
+[8mha:////4GdlSX/KsIQHrl9Om6Xe3mbj6shqZOqA8VNF6BZNr29xAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] {
+[8mha:////4D/vEuSRENc0XWysFOB/8scfhbAAC6A0HlFkSFo1jsEVAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/ravindramv/hello-world-war.git
+ > git init /home/devops/workspace/jfrogautomateartifactstore # timeout=10
+Fetching upstream changes from https://github.com/ravindramv/hello-world-war.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/ravindramv/hello-world-war.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Checking out Revision 0cc436f2bdc491da99a8901b33b7653f08497bb2 (refs/remotes/origin/master)
+ > git config remote.origin.url https://github.com/ravindramv/hello-world-war.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0cc436f2bdc491da99a8901b33b7653f08497bb2 # timeout=10
+Commit message: "Update Jenkinsfile2"
+[8mha:////4OOn3K95UUsFA+lnxGcPT0UzYTvyE9bpCYrxDw8JaU8ZAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUqtgQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9AB5BZ5LCAAAA[0m[Pipeline] withEnv
+[8mha:////4GFrnUO7N4gVDD+IVPHjqMkWP3uZlugXVTw/CrxIUZ1hAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] {
+[8mha:////4JsBfjGhAUgjzeMxuAZ8ihYRSyvMnJRugHhgfgdU37tSAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEIWoEpvgAAAA==[0m[Pipeline] sh
++ whoami
+devops
+[8mha:////4KpaVM1sju5Ckjh5c0R7KHHDoewgnI8skBDFu+GhGCiLAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q1Ja5owvgAAAA==[0m[Pipeline] sh
++ curl -u ravindramv45@gmail.com:Devops@123 -O https://ravindramv.jfrog.io/artifactory/libs-release-local/com/efsavage/hello-world-war/4/hello-world-war-4.war
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    80    0    80    0     0     73      0 --:--:--  0:00:01 --:--:--    73100    80    0    80    0     0     73      0 --:--:--  0:00:01 --:--:--    73
+[8mha:////4DrzAZaUDIdazkT8j3H0G+0Kk46fPMqqHcin8jg8biwqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEhIaq0lhteYGJjnFh3xnZIKl7E1/gDgUhUbLHa2WaeL1imCEeOFltDnaPUOAy+t9PCgWN38Txgy2dsmBJ7g9IMkrWpZ5ScDcwpSlgIWBlqPCdHNsNatOquKq/IVqccp+8goHT6Bg8oxGTOKuYvjBE2114npp/nrwDGkKHc7j61D2+GdwK3vgAAAA==[0m[Pipeline] sh
++ sudo cp -R hello-world-war-4.war /opt/tomcat/webapps/
+[8mha:////4PAH4sgnxUxbCMZO/cFTa7Au9oEkjSdEJbPW34YPZcCKAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIVEgRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q3HRhmuvgAAAA==[0m[Pipeline] sh
++ sudo sh /opt/tomcat/bin/shutdown.sh
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Dec 02, 2022 1:46:21 PM org.apache.catalina.startup.Catalina stopServer
+SEVERE: Could not contact [localhost:8005] (base port [8005] and offset [0]). Tomcat may not be running.
+Dec 02, 2022 1:46:21 PM org.apache.catalina.startup.Catalina stopServer
+SEVERE: Error stopping Catalina
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/java.net.Socket.connect(Socket.java:558)
+	at java.base/java.net.Socket.<init>(Socket.java:454)
+	at java.base/java.net.Socket.<init>(Socket.java:231)
+	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:692)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:391)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:481)
+
+[8mha:////4LsMfNsN/sPgWrqVf4Ganlr25uU3ycjftklE1Out3MXIAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AG5lxl+vgAAAA==[0m[Pipeline] sh
++ sleep 2
+[8mha:////4LepBreLcvTD1XyYm20l0eGIpvhVW8FoqSXOJHM+vjHmAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AH4pgJnvgAAAA==[0m[Pipeline] sh
++ sudo sh /opt/tomcat/bin/startup.sh
+Tomcat started.
+[8mha:////4PZTISp4CCR+/XxWLfLnJiNXAZiINWQEI9OdF6uLwKt1AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBVEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AHXsPqXvgAAAA==[0m[Pipeline] }
+[8mha:////4AFhzgqSzzE6GRaOpmAqsHJoo/R7ffaBq+TWWhYxe1ZSAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRCB2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPuRToSu+AAAA[0m[Pipeline] // withEnv
+[8mha:////4Krk4LJCUeK7cc4CWaqGZy6ZIgpNuhQBMTY3jO3gy55NAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBTpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOX+kKuuP2nGx9++AAAA[0m[Pipeline] }
+[8mha:////4MR8yaaRH7o8PcfOIUzplAEMf1Rsy7fz79YZB7UbOeIyAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Iddu+wF2RJKNvgAAAA==[0m[Pipeline] // node
+[8mha:////4FcWPdKLeEEZcF7HjIewu9eDjSjamO17Xaetii4cij6LAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7l22w9OBgF8vgAAAA==[0m[Pipeline] }
+[8mha:////4GOmFA6PuTB8iuhBEjSbkmSaTJ6by3T/uZvKtkgVEFjVAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRIEQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAjD6s5b4AAAA=[0m[Pipeline] // stage
+[8mha:////4ICqOBYJJBmZ7shrabPS6Y8b3q28LzP3CrBSDCzhIXGDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiiAYJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5P+Sq6w9rBCEavgAAAA==[0m[Pipeline] }
+[8mha:////4Ase6ftRE624BbvykBstl61oe6AouUERU0j3doC/Ht1hAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICokIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Iddu+wFY53qmvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4F0xAA5yYk64C/yK2A0ce2B4K/omSy8VdMujP24QMIjpAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJY0DlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg82uoiCvQAAAA==[0m[Pipeline] }
+[8mha:////4FWF2Pl4D/UqKkKBnd5z0eo83/51osWCWnRTGodif4ZvAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRgg5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77eCbPcBJQaMIb0AAAA=[0m[Pipeline] // node
+[8mha:////4P+VCjwTjYozEPxk+gQ3am06u2jzkxYRXVmsRjPbxq2pAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkxM04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwAY0wrEb0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

@@ -1,0 +1,23 @@
+Started by GitHub push by ravindramv
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/fourthjob
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/fourthjob/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ravindramv/firstrepo.git # timeout=10
+Fetching upstream changes from https://github.com/ravindramv/firstrepo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/ravindramv/firstrepo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision aeb41253ad8f8edd4d2df31ba1cae9e557bbb631 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f aeb41253ad8f8edd4d2df31ba1cae9e557bbb631 # timeout=10
+Commit message: "Update rev.sh"
+ > git rev-list --no-walk 02e85d4175961a4317659b8b4c8396ebfff9b003 # timeout=10
+[fourthjob] $ /bin/sh -xe /tmp/jenkins3822093679583751250.sh
++ sh rev.sh
+ardnivar
+webhook
+Finished: SUCCESS

@@ -1,0 +1,22 @@
+Started by user [8mha:////4G/ED/a2E1oyG2DABrxXNFZyOye0lfroL5cY14296M/PAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYB/dLi1CL9osSyzLyUosTcMgBhXnykxQAAAA==[0mravindra m v
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/fourthjob
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/fourthjob/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ravindramv/firstrepo.git # timeout=10
+Fetching upstream changes from https://github.com/ravindramv/firstrepo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/ravindramv/firstrepo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 02e85d4175961a4317659b8b4c8396ebfff9b003 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 02e85d4175961a4317659b8b4c8396ebfff9b003 # timeout=10
+Commit message: "commiting"
+ > git rev-list --no-walk 02e85d4175961a4317659b8b4c8396ebfff9b003 # timeout=10
+[fourthjob] $ /bin/sh -xe /tmp/jenkins11717832794096096514.sh
++ sh rev.sh
+ardnivar
+Finished: SUCCESS

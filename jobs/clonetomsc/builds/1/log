@@ -1,0 +1,26 @@
+Started by user [8mha:////4G/ED/a2E1oyG2DABrxXNFZyOye0lfroL5cY14296M/PAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYB/dLi1CL9osSyzLyUosTcMgBhXnykxQAAAA==[0mravindra m v
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/clonetomsc
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/ravindramv/firstrepo.git
+ > git init /var/lib/jenkins/workspace/clonetomsc # timeout=10
+Fetching upstream changes from https://github.com/ravindramv/firstrepo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/ravindramv/firstrepo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/ravindramv/firstrepo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 5144490f92fcf67136eeb99d43f1e4a4321c4bdf (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5144490f92fcf67136eeb99d43f1e4a4321c4bdf # timeout=10
+Commit message: "tommavenjavascript"
+First time build. Skipping changelog.
+[clonetomsc] $ /bin/sh -xe /tmp/jenkins7051201263658189256.sh
++ sh tomjavamaven.sh
+sh: 0: cannot open tomjavamaven.sh: No such file
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

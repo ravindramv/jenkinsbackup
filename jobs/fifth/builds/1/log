@@ -1,0 +1,8 @@
+Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/fifth
+[fifth] $ /bin/sh -xe /tmp/jenkins16094983976385971947.sh
++ sh rev.sh
+sh: 0: cannot open rev.sh: No such file
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

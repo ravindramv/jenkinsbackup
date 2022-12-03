@@ -1,0 +1,26 @@
+Started by upstream project "[8mha:////4M45NmncLLoe5au3QVYeqwLnzZyqySJrKhzwLpi2xTUVAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JP20zLSSDH0At0sTQMAAAAA=[0mfifth" build number [8mha:////4JKQLttpUa5Yrotss1JykJh7rkJlnF+7hyzAX5wgutmpAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBh79rPwk/bTMtJIMfVMAFVS2eMEAAAA=[0m5
+originally caused by:
+ Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/fourthjob
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/fourthjob/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ravindramv/firstrepo.git # timeout=10
+Fetching upstream changes from https://github.com/ravindramv/firstrepo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/ravindramv/firstrepo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision ea3e85b25db1143344d67612ba636f1b8ec8ab54 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ea3e85b25db1143344d67612ba636f1b8ec8ab54 # timeout=10
+Commit message: "Update rev.sh"
+ > git rev-list --no-walk ea3e85b25db1143344d67612ba636f1b8ec8ab54 # timeout=10
+[fourthjob] $ /bin/sh -xe /tmp/jenkins6707699094931082572.sh
++ sh rev.sh
+ardnivar
+webhook.....
+checking pollscm
+Finished: SUCCESS

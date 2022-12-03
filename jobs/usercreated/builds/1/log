@@ -1,0 +1,8 @@
+Started by user [8mha:////4G/ED/a2E1oyG2DABrxXNFZyOye0lfroL5cY14296M/PAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYB/dLi1CL9osSyzLyUosTcMgBhXnykxQAAAA==[0mravindra m v
+Running as SYSTEM
+Building remotely on [8mha:////4D9mnKKHNmzKbkJXkZ2o2Aefy5tGSfWxLs4YBVLLfyOHAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQifaO8lDygUwFMlACPxgAAAA==[0m2ndnode (slave_2) in workspace /home/jenkins/workspace/usercreated
+[usercreated] $ /bin/sh -xe /tmp/jenkins15932594134589540951.sh
++ ls
++ pwd
+/home/jenkins/workspace/usercreated
+Finished: SUCCESS

@@ -1,0 +1,1641 @@
+Started by user [8mha:////4G/ED/a2E1oyG2DABrxXNFZyOye0lfroL5cY14296M/PAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYB/dLi1CL9osSyzLyUosTcMgBhXnykxQAAAA==[0mravindra m v
+Running as SYSTEM
+Building remotely on [8mha:////4G9kKiNJTzv9lKjDI2r31hmO1xJoJPyIvM4kNfynHLSGAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZh/eT83ILSktQi/bTMouKSPKBjAfzUpBrIAAAA[0mfirstnode in workspace /home/devops/workspace/tomjenkinssc
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/devops/workspace/tomjenkinssc/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ravindramv/tomcatrepo.git # timeout=10
+Fetching upstream changes from https://github.com/ravindramv/tomcatrepo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/ravindramv/tomcatrepo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision e6b201dc5dbf7d934ef538ac1e09778789767e45 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e6b201dc5dbf7d934ef538ac1e09778789767e45 # timeout=10
+Commit message: "Update tomscript.sh"
+ > git rev-list --no-walk e6b201dc5dbf7d934ef538ac1e09778789767e45 # timeout=10
+[tomjenkinssc] $ /bin/sh -xe /tmp/jenkins3592626879354099180.sh
++ pwd
+/home/devops/workspace/tomjenkinssc
++ sh tomscript.sh
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Get:1 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+Hit:2 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy InRelease
+Hit:3 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:4 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-backports InRelease
+Fetched 110 kB in 0s (287 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+88 packages can be upgraded. Run 'apt list --upgradable' to see them.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages were automatically installed and are no longer required:
+  libflashrom1 libftdi1-2
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  linux-aws-headers-5.15.0-1023 linux-headers-5.15.0-1023-aws
+  linux-image-5.15.0-1023-aws linux-modules-5.15.0-1023-aws python3-magic
+  systemd-hwe-hwdb
+The following packages will be upgraded:
+  apport apt apt-utils bind9-dnsutils bind9-host bind9-libs binutils
+  binutils-common binutils-x86-64-linux-gnu cloud-init curl dbus
+  dbus-user-session distro-info-data fwupd gcc-12-base git git-man
+  grub-efi-amd64-bin grub-efi-amd64-signed gzip isc-dhcp-client
+  isc-dhcp-common kpartx libapt-pkg6.0 libbinutils libctf-nobfd0 libctf0
+  libcurl3-gnutls libcurl4 libdbus-1-3 libexpat1 libfwupd2 libfwupdplugin5
+  libgcc-s1 libksba8 libnetplan0 libnss-systemd libntfs-3g89 libpam-systemd
+  libpcre2-8-0 libperl5.34 libpython3-stdlib libpython3.10
+  libpython3.10-minimal libpython3.10-stdlib libsqlite3-0 libssl3 libstdc++6
+  libsystemd0 libudev1 linux-aws linux-headers-aws linux-image-aws
+  multipath-tools netplan.io ntfs-3g openssl perl perl-base perl-modules-5.34
+  python3 python3-apport python3-distupgrade python3-distutils python3-gdbm
+  python3-lib2to3 python3-minimal python3-oauthlib python3-problem-report
+  python3.10 python3.10-minimal rsync snapd sosreport sudo systemd
+  systemd-sysv tzdata ubuntu-advantage-tools ubuntu-release-upgrader-core udev
+  vim vim-common vim-runtime vim-tiny xxd zlib1g
+88 upgraded, 6 newly installed, 0 to remove and 0 not upgraded.
+52 standard security updates
+Need to get 133 MB of archives.
+After this operation, 237 MB of additional disk space will be used.
+Get:1 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 gzip amd64 1.10-4ubuntu4.1 [96.0 kB]
+Get:2 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libperl5.34 amd64 5.34.0-3ubuntu1.1 [4819 kB]
+Get:3 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 perl amd64 5.34.0-3ubuntu1.1 [232 kB]
+Get:4 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 perl-base amd64 5.34.0-3ubuntu1.1 [1758 kB]
+Get:5 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 perl-modules-5.34 all 5.34.0-3ubuntu1.1 [2976 kB]
+Get:6 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 zlib1g amd64 1:1.2.11.dfsg-2ubuntu9.2 [58.4 kB]
+Get:7 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 gcc-12-base amd64 12.1.0-2ubuntu1~22.04 [19.0 kB]
+Get:8 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgcc-s1 amd64 12.1.0-2ubuntu1~22.04 [54.3 kB]
+Get:9 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libstdc++6 amd64 12.1.0-2ubuntu1~22.04 [696 kB]
+Get:10 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libnss-systemd amd64 249.11-0ubuntu3.6 [133 kB]
+Get:11 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libsystemd0 amd64 249.11-0ubuntu3.6 [318 kB]
+Get:12 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 systemd-sysv amd64 249.11-0ubuntu3.6 [10.5 kB]
+Get:13 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpam-systemd amd64 249.11-0ubuntu3.6 [203 kB]
+Get:14 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 systemd amd64 249.11-0ubuntu3.6 [4580 kB]
+Get:15 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 udev amd64 249.11-0ubuntu3.6 [1557 kB]
+Get:16 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libudev1 amd64 249.11-0ubuntu3.6 [76.8 kB]
+Get:17 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 dbus amd64 1.12.20-2ubuntu4.1 [158 kB]
+Get:18 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libdbus-1-3 amd64 1.12.20-2ubuntu4.1 [189 kB]
+Get:19 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libexpat1 amd64 2.4.7-1ubuntu0.2 [91.0 kB]
+Get:20 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libssl3 amd64 3.0.2-0ubuntu1.7 [1899 kB]
+Get:21 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libapt-pkg6.0 amd64 2.4.8 [907 kB]
+Get:22 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 apt amd64 2.4.8 [1379 kB]
+Get:23 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 apt-utils amd64 2.4.8 [211 kB]
+Get:24 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10 amd64 3.10.6-1~22.04.1 [1955 kB]
+Get:25 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3.10 amd64 3.10.6-1~22.04.1 [497 kB]
+Get:26 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-distutils all 3.10.6-1~22.04 [139 kB]
+Get:27 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-lib2to3 all 3.10.6-1~22.04 [77.6 kB]
+Get:28 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libsqlite3-0 amd64 3.37.2-2ubuntu0.1 [641 kB]
+Get:29 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10-stdlib amd64 3.10.6-1~22.04.1 [1831 kB]
+Get:30 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3.10-minimal amd64 3.10.6-1~22.04.1 [2263 kB]
+Get:31 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10-minimal amd64 3.10.6-1~22.04.1 [810 kB]
+Get:32 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-minimal amd64 3.10.6-1~22.04 [24.3 kB]
+Get:33 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3 amd64 3.10.6-1~22.04 [22.8 kB]
+Get:34 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3-stdlib amd64 3.10.6-1~22.04 [6910 B]
+Get:35 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 ntfs-3g amd64 1:2021.8.22-3ubuntu1.2 [408 kB]
+Get:36 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libntfs-3g89 amd64 1:2021.8.22-3ubuntu1.2 [161 kB]
+Get:37 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 rsync amd64 3.2.3-8ubuntu3.1 [404 kB]
+Get:38 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpcre2-8-0 amd64 10.39-3ubuntu0.1 [221 kB]
+Get:39 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 distro-info-data all 0.52ubuntu0.2 [5160 B]
+Get:40 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 isc-dhcp-client amd64 4.4.1-2.3ubuntu2.3 [234 kB]
+Get:41 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 isc-dhcp-common amd64 4.4.1-2.3ubuntu2.3 [44.7 kB]
+Get:42 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 netplan.io amd64 0.105-0ubuntu2~22.04.1 [92.5 kB]
+Get:43 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libnetplan0 amd64 0.105-0ubuntu2~22.04.1 [102 kB]
+Get:44 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 openssl amd64 3.0.2-0ubuntu1.7 [1183 kB]
+Get:45 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 sudo amd64 1.9.9-1ubuntu2.1 [820 kB]
+Get:46 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 tzdata all 2022f-0ubuntu0.22.04.1 [333 kB]
+Get:47 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 ubuntu-advantage-tools amd64 27.11.3~22.04.1 [164 kB]
+Get:48 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 xxd amd64 2:8.2.3995-1ubuntu2.1 [51.3 kB]
+Get:49 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 vim amd64 2:8.2.3995-1ubuntu2.1 [1727 kB]
+Get:50 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 vim-tiny amd64 2:8.2.3995-1ubuntu2.1 [704 kB]
+Get:51 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 vim-runtime all 2:8.2.3995-1ubuntu2.1 [6832 kB]
+Get:52 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 vim-common all 2:8.2.3995-1ubuntu2.1 [81.5 kB]
+Get:53 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 bind9-dnsutils amd64 1:9.18.1-1ubuntu1.2 [149 kB]
+Get:54 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 bind9-host amd64 1:9.18.1-1ubuntu1.2 [43.7 kB]
+Get:55 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 bind9-libs amd64 1:9.18.1-1ubuntu1.2 [1216 kB]
+Get:56 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 ubuntu-release-upgrader-core all 1:22.04.14 [26.2 kB]
+Get:57 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-distupgrade all 1:22.04.14 [107 kB]
+Get:58 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-gdbm amd64 3.10.6-1~22.04 [16.7 kB]
+Get:59 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-problem-report all 2.20.11-0ubuntu82.2 [10.9 kB]
+Get:60 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-apport all 2.20.11-0ubuntu82.2 [88.0 kB]
+Get:61 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 apport all 2.20.11-0ubuntu82.2 [133 kB]
+Get:62 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libctf-nobfd0 amd64 2.38-4ubuntu2 [107 kB]
+Get:63 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libctf0 amd64 2.38-4ubuntu2 [103 kB]
+Get:64 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 binutils-x86-64-linux-gnu amd64 2.38-4ubuntu2 [2328 kB]
+Get:65 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libbinutils amd64 2.38-4ubuntu2 [661 kB]
+Get:66 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 binutils amd64 2.38-4ubuntu2 [3198 B]
+Get:67 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 binutils-common amd64 2.38-4ubuntu2 [221 kB]
+Get:68 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 curl amd64 7.81.0-1ubuntu1.6 [194 kB]
+Get:69 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libcurl4 amd64 7.81.0-1ubuntu1.6 [290 kB]
+Get:70 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 dbus-user-session amd64 1.12.20-2ubuntu4.1 [9442 B]
+Get:71 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 fwupd amd64 1.7.9-1~22.04.1 [2561 kB]
+Get:72 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libfwupdplugin5 amd64 1.7.9-1~22.04.1 [192 kB]
+Get:73 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libcurl3-gnutls amd64 7.81.0-1ubuntu1.6 [283 kB]
+Get:74 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libfwupd2 amd64 1.7.9-1~22.04.1 [105 kB]
+Get:75 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 git-man all 1:2.34.1-1ubuntu1.5 [953 kB]
+Get:76 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 git amd64 1:2.34.1-1ubuntu1.5 [3132 kB]
+Get:77 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 grub-efi-amd64-signed amd64 1.182~22.04.1+2.06-2ubuntu10 [533 kB]
+Get:78 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 grub-efi-amd64-bin amd64 2.06-2ubuntu10 [740 kB]
+Get:79 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libksba8 amd64 1.6.0-2ubuntu0.1 [119 kB]
+Get:80 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-modules-5.15.0-1023-aws amd64 5.15.0-1023.27 [22.5 MB]
+Get:81 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-image-5.15.0-1023-aws amd64 5.15.0-1023.27 [11.4 MB]
+Get:82 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-aws amd64 5.15.0.1023.23 [1712 B]
+Get:83 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-image-aws amd64 5.15.0.1023.23 [2408 B]
+Get:84 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-aws-headers-5.15.0-1023 all 5.15.0-1023.27 [12.3 MB]
+Get:85 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-headers-5.15.0-1023-aws amd64 5.15.0-1023.27 [2833 kB]
+Get:86 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-headers-aws amd64 5.15.0.1023.23 [2340 B]
+Get:87 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-oauthlib all 3.2.0-1ubuntu0.1 [89.9 kB]
+Get:88 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 snapd amd64 2.57.5+22.04 [23.8 MB]
+Get:89 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy/main amd64 python3-magic all 2:0.4.24-2 [12.6 kB]
+Get:90 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 sosreport amd64 4.4-1ubuntu1.22.04.1 [307 kB]
+Get:91 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 systemd-hwe-hwdb all 249.11.1 [2322 B]
+Get:92 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 cloud-init all 22.3.4-0ubuntu1~22.04.1 [500 kB]
+Get:93 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 kpartx amd64 0.8.8-1ubuntu1.22.04.1 [28.6 kB]
+Get:94 http://eu-west-3.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 multipath-tools amd64 0.8.8-1ubuntu1.22.04.1 [332 kB]
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+Fetched 133 MB in 3s (40.4 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 66093 files and directories currently installed.)
+Preparing to unpack .../gzip_1.10-4ubuntu4.1_amd64.deb ...
+Unpacking gzip (1.10-4ubuntu4.1) over (1.10-4ubuntu4) ...
+Setting up gzip (1.10-4ubuntu4.1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 66093 files and directories currently installed.)
+Preparing to unpack .../libperl5.34_5.34.0-3ubuntu1.1_amd64.deb ...
+Unpacking libperl5.34:amd64 (5.34.0-3ubuntu1.1) over (5.34.0-3ubuntu1) ...
+Preparing to unpack .../perl_5.34.0-3ubuntu1.1_amd64.deb ...
+Unpacking perl (5.34.0-3ubuntu1.1) over (5.34.0-3ubuntu1) ...
+Preparing to unpack .../perl-base_5.34.0-3ubuntu1.1_amd64.deb ...
+Unpacking perl-base (5.34.0-3ubuntu1.1) over (5.34.0-3ubuntu1) ...
+Setting up perl-base (5.34.0-3ubuntu1.1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 66093 files and directories currently installed.)
+Preparing to unpack .../perl-modules-5.34_5.34.0-3ubuntu1.1_all.deb ...
+Unpacking perl-modules-5.34 (5.34.0-3ubuntu1.1) over (5.34.0-3ubuntu1) ...
+Preparing to unpack .../zlib1g_1%3a1.2.11.dfsg-2ubuntu9.2_amd64.deb ...
+Unpacking zlib1g:amd64 (1:1.2.11.dfsg-2ubuntu9.2) over (1:1.2.11.dfsg-2ubuntu9) ...
+Setting up zlib1g:amd64 (1:1.2.11.dfsg-2ubuntu9.2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 66093 files and directories currently installed.)
+Preparing to unpack .../gcc-12-base_12.1.0-2ubuntu1~22.04_amd64.deb ...
+Unpacking gcc-12-base:amd64 (12.1.0-2ubuntu1~22.04) over (12-20220319-1ubuntu1) ...
+Setting up gcc-12-base:amd64 (12.1.0-2ubuntu1~22.04) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 66093 files and directories currently installed.)
+Preparing to unpack .../libgcc-s1_12.1.0-2ubuntu1~22.04_amd64.deb ...
+Unpacking libgcc-s1:amd64 (12.1.0-2ubuntu1~22.04) over (12-20220319-1ubuntu1) ...
+Setting up libgcc-s1:amd64 (12.1.0-2ubuntu1~22.04) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 66093 files and directories currently installed.)
+Preparing to unpack .../libstdc++6_12.1.0-2ubuntu1~22.04_amd64.deb ...
+Unpacking libstdc++6:amd64 (12.1.0-2ubuntu1~22.04) over (12-20220319-1ubuntu1) ...
+Setting up libstdc++6:amd64 (12.1.0-2ubuntu1~22.04) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 66093 files and directories currently installed.)
+Preparing to unpack .../libnss-systemd_249.11-0ubuntu3.6_amd64.deb ...
+Unpacking libnss-systemd:amd64 (249.11-0ubuntu3.6) over (249.11-0ubuntu3.4) ...
+Preparing to unpack .../libsystemd0_249.11-0ubuntu3.6_amd64.deb ...
+Unpacking libsystemd0:amd64 (249.11-0ubuntu3.6) over (249.11-0ubuntu3.4) ...
+Setting up libsystemd0:amd64 (249.11-0ubuntu3.6) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 66093 files and directories currently installed.)
+Preparing to unpack .../systemd-sysv_249.11-0ubuntu3.6_amd64.deb ...
+Unpacking systemd-sysv (249.11-0ubuntu3.6) over (249.11-0ubuntu3.4) ...
+Preparing to unpack .../libpam-systemd_249.11-0ubuntu3.6_amd64.deb ...
+Unpacking libpam-systemd:amd64 (249.11-0ubuntu3.6) over (249.11-0ubuntu3.4) ...
+Preparing to unpack .../systemd_249.11-0ubuntu3.6_amd64.deb ...
+Unpacking systemd (249.11-0ubuntu3.6) over (249.11-0ubuntu3.4) ...
+Preparing to unpack .../udev_249.11-0ubuntu3.6_amd64.deb ...
+Unpacking udev (249.11-0ubuntu3.6) over (249.11-0ubuntu3.4) ...
+Preparing to unpack .../libudev1_249.11-0ubuntu3.6_amd64.deb ...
+Unpacking libudev1:amd64 (249.11-0ubuntu3.6) over (249.11-0ubuntu3.4) ...
+Setting up libudev1:amd64 (249.11-0ubuntu3.6) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 66093 files and directories currently installed.)
+Preparing to unpack .../dbus_1.12.20-2ubuntu4.1_amd64.deb ...
+Unpacking dbus (1.12.20-2ubuntu4.1) over (1.12.20-2ubuntu4) ...
+Preparing to unpack .../libdbus-1-3_1.12.20-2ubuntu4.1_amd64.deb ...
+Unpacking libdbus-1-3:amd64 (1.12.20-2ubuntu4.1) over (1.12.20-2ubuntu4) ...
+Preparing to unpack .../libexpat1_2.4.7-1ubuntu0.2_amd64.deb ...
+Unpacking libexpat1:amd64 (2.4.7-1ubuntu0.2) over (2.4.7-1) ...
+Preparing to unpack .../libssl3_3.0.2-0ubuntu1.7_amd64.deb ...
+Unpacking libssl3:amd64 (3.0.2-0ubuntu1.7) over (3.0.2-0ubuntu1.6) ...
+Setting up libssl3:amd64 (3.0.2-0ubuntu1.7) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 66093 files and directories currently installed.)
+Preparing to unpack .../libapt-pkg6.0_2.4.8_amd64.deb ...
+Unpacking libapt-pkg6.0:amd64 (2.4.8) over (2.4.7) ...
+Setting up libapt-pkg6.0:amd64 (2.4.8) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 66093 files and directories currently installed.)
+Preparing to unpack .../archives/apt_2.4.8_amd64.deb ...
+Unpacking apt (2.4.8) over (2.4.7) ...
+Setting up apt (2.4.8) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 66093 files and directories currently installed.)
+Preparing to unpack .../0-apt-utils_2.4.8_amd64.deb ...
+Unpacking apt-utils (2.4.8) over (2.4.7) ...
+Preparing to unpack .../1-libpython3.10_3.10.6-1~22.04.1_amd64.deb ...
+Unpacking libpython3.10:amd64 (3.10.6-1~22.04.1) over (3.10.4-3ubuntu0.1) ...
+Preparing to unpack .../2-python3.10_3.10.6-1~22.04.1_amd64.deb ...
+Unpacking python3.10 (3.10.6-1~22.04.1) over (3.10.4-3ubuntu0.1) ...
+Preparing to unpack .../3-python3-distutils_3.10.6-1~22.04_all.deb ...
+Unpacking python3-distutils (3.10.6-1~22.04) over (3.10.4-0ubuntu1) ...
+Preparing to unpack .../4-python3-lib2to3_3.10.6-1~22.04_all.deb ...
+Unpacking python3-lib2to3 (3.10.6-1~22.04) over (3.10.4-0ubuntu1) ...
+Preparing to unpack .../5-libsqlite3-0_3.37.2-2ubuntu0.1_amd64.deb ...
+Unpacking libsqlite3-0:amd64 (3.37.2-2ubuntu0.1) over (3.37.2-2) ...
+Preparing to unpack .../6-libpython3.10-stdlib_3.10.6-1~22.04.1_amd64.deb ...
+Unpacking libpython3.10-stdlib:amd64 (3.10.6-1~22.04.1) over (3.10.4-3ubuntu0.1) ...
+Preparing to unpack .../7-python3.10-minimal_3.10.6-1~22.04.1_amd64.deb ...
+Unpacking python3.10-minimal (3.10.6-1~22.04.1) over (3.10.4-3ubuntu0.1) ...
+Preparing to unpack .../8-libpython3.10-minimal_3.10.6-1~22.04.1_amd64.deb ...
+Unpacking libpython3.10-minimal:amd64 (3.10.6-1~22.04.1) over (3.10.4-3ubuntu0.1) ...
+Setting up libpython3.10-minimal:amd64 (3.10.6-1~22.04.1) ...
+Setting up libexpat1:amd64 (2.4.7-1ubuntu0.2) ...
+Setting up python3.10-minimal (3.10.6-1~22.04.1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 66223 files and directories currently installed.)
+Preparing to unpack .../python3-minimal_3.10.6-1~22.04_amd64.deb ...
+Unpacking python3-minimal (3.10.6-1~22.04) over (3.10.4-0ubuntu2) ...
+Setting up python3-minimal (3.10.6-1~22.04) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 66223 files and directories currently installed.)
+Preparing to unpack .../0-python3_3.10.6-1~22.04_amd64.deb ...
+running python pre-rtupdate hooks for python3.10...
+Unpacking python3 (3.10.6-1~22.04) over (3.10.4-0ubuntu2) ...
+Preparing to unpack .../1-libpython3-stdlib_3.10.6-1~22.04_amd64.deb ...
+Unpacking libpython3-stdlib:amd64 (3.10.6-1~22.04) over (3.10.4-0ubuntu2) ...
+Preparing to unpack .../2-ntfs-3g_1%3a2021.8.22-3ubuntu1.2_amd64.deb ...
+Unpacking ntfs-3g (1:2021.8.22-3ubuntu1.2) over (1:2021.8.22-3ubuntu1.1) ...
+Preparing to unpack .../3-libntfs-3g89_1%3a2021.8.22-3ubuntu1.2_amd64.deb ...
+Unpacking libntfs-3g89 (1:2021.8.22-3ubuntu1.2) over (1:2021.8.22-3ubuntu1.1) ...
+Preparing to unpack .../4-rsync_3.2.3-8ubuntu3.1_amd64.deb ...
+Unpacking rsync (3.2.3-8ubuntu3.1) over (3.2.3-8ubuntu3) ...
+Preparing to unpack .../5-libpcre2-8-0_10.39-3ubuntu0.1_amd64.deb ...
+Unpacking libpcre2-8-0:amd64 (10.39-3ubuntu0.1) over (10.39-3build1) ...
+Setting up libpcre2-8-0:amd64 (10.39-3ubuntu0.1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 66223 files and directories currently installed.)
+Preparing to unpack .../00-distro-info-data_0.52ubuntu0.2_all.deb ...
+Unpacking distro-info-data (0.52ubuntu0.2) over (0.52ubuntu0.1) ...
+Preparing to unpack .../01-isc-dhcp-client_4.4.1-2.3ubuntu2.3_amd64.deb ...
+Unpacking isc-dhcp-client (4.4.1-2.3ubuntu2.3) over (4.4.1-2.3ubuntu2.2) ...
+Preparing to unpack .../02-isc-dhcp-common_4.4.1-2.3ubuntu2.3_amd64.deb ...
+Unpacking isc-dhcp-common (4.4.1-2.3ubuntu2.3) over (4.4.1-2.3ubuntu2.2) ...
+Preparing to unpack .../03-netplan.io_0.105-0ubuntu2~22.04.1_amd64.deb ...
+Unpacking netplan.io (0.105-0ubuntu2~22.04.1) over (0.104-0ubuntu2.1) ...
+Preparing to unpack .../04-libnetplan0_0.105-0ubuntu2~22.04.1_amd64.deb ...
+Unpacking libnetplan0:amd64 (0.105-0ubuntu2~22.04.1) over (0.104-0ubuntu2.1) ...
+Preparing to unpack .../05-openssl_3.0.2-0ubuntu1.7_amd64.deb ...
+Unpacking openssl (3.0.2-0ubuntu1.7) over (3.0.2-0ubuntu1.6) ...
+Preparing to unpack .../06-sudo_1.9.9-1ubuntu2.1_amd64.deb ...
+Unpacking sudo (1.9.9-1ubuntu2.1) over (1.9.9-1ubuntu2) ...
+Preparing to unpack .../07-tzdata_2022f-0ubuntu0.22.04.1_all.deb ...
+Unpacking tzdata (2022f-0ubuntu0.22.04.1) over (2022c-0ubuntu0.22.04.0) ...
+Preparing to unpack .../08-ubuntu-advantage-tools_27.11.3~22.04.1_amd64.deb ...
+Unpacking ubuntu-advantage-tools (27.11.3~22.04.1) over (27.10.1~22.04.1) ...
+Preparing to unpack .../09-xxd_2%3a8.2.3995-1ubuntu2.1_amd64.deb ...
+Unpacking xxd (2:8.2.3995-1ubuntu2.1) over (2:8.2.3995-1ubuntu2) ...
+Preparing to unpack .../10-vim_2%3a8.2.3995-1ubuntu2.1_amd64.deb ...
+Unpacking vim (2:8.2.3995-1ubuntu2.1) over (2:8.2.3995-1ubuntu2) ...
+Preparing to unpack .../11-vim-tiny_2%3a8.2.3995-1ubuntu2.1_amd64.deb ...
+Unpacking vim-tiny (2:8.2.3995-1ubuntu2.1) over (2:8.2.3995-1ubuntu2) ...
+Preparing to unpack .../12-vim-runtime_2%3a8.2.3995-1ubuntu2.1_all.deb ...
+Unpacking vim-runtime (2:8.2.3995-1ubuntu2.1) over (2:8.2.3995-1ubuntu2) ...
+Preparing to unpack .../13-vim-common_2%3a8.2.3995-1ubuntu2.1_all.deb ...
+Unpacking vim-common (2:8.2.3995-1ubuntu2.1) over (2:8.2.3995-1ubuntu2) ...
+Preparing to unpack .../14-bind9-dnsutils_1%3a9.18.1-1ubuntu1.2_amd64.deb ...
+Unpacking bind9-dnsutils (1:9.18.1-1ubuntu1.2) over (1:9.18.1-1ubuntu1.1) ...
+Preparing to unpack .../15-bind9-host_1%3a9.18.1-1ubuntu1.2_amd64.deb ...
+Unpacking bind9-host (1:9.18.1-1ubuntu1.2) over (1:9.18.1-1ubuntu1.1) ...
+Preparing to unpack .../16-bind9-libs_1%3a9.18.1-1ubuntu1.2_amd64.deb ...
+Unpacking bind9-libs:amd64 (1:9.18.1-1ubuntu1.2) over (1:9.18.1-1ubuntu1.1) ...
+Preparing to unpack .../17-ubuntu-release-upgrader-core_1%3a22.04.14_all.deb ...
+Unpacking ubuntu-release-upgrader-core (1:22.04.14) over (1:22.04.13) ...
+Preparing to unpack .../18-python3-distupgrade_1%3a22.04.14_all.deb ...
+Unpacking python3-distupgrade (1:22.04.14) over (1:22.04.13) ...
+Preparing to unpack .../19-python3-gdbm_3.10.6-1~22.04_amd64.deb ...
+Unpacking python3-gdbm:amd64 (3.10.6-1~22.04) over (3.10.4-0ubuntu1) ...
+Preparing to unpack .../20-python3-problem-report_2.20.11-0ubuntu82.2_all.deb ...
+Unpacking python3-problem-report (2.20.11-0ubuntu82.2) over (2.20.11-0ubuntu82.1) ...
+Preparing to unpack .../21-python3-apport_2.20.11-0ubuntu82.2_all.deb ...
+Unpacking python3-apport (2.20.11-0ubuntu82.2) over (2.20.11-0ubuntu82.1) ...
+Preparing to unpack .../22-apport_2.20.11-0ubuntu82.2_all.deb ...
+Unpacking apport (2.20.11-0ubuntu82.2) over (2.20.11-0ubuntu82.1) ...
+Preparing to unpack .../23-libctf-nobfd0_2.38-4ubuntu2_amd64.deb ...
+Unpacking libctf-nobfd0:amd64 (2.38-4ubuntu2) over (2.38-3ubuntu1) ...
+Preparing to unpack .../24-libctf0_2.38-4ubuntu2_amd64.deb ...
+Unpacking libctf0:amd64 (2.38-4ubuntu2) over (2.38-3ubuntu1) ...
+Preparing to unpack .../25-binutils-x86-64-linux-gnu_2.38-4ubuntu2_amd64.deb ...
+Unpacking binutils-x86-64-linux-gnu (2.38-4ubuntu2) over (2.38-3ubuntu1) ...
+Preparing to unpack .../26-libbinutils_2.38-4ubuntu2_amd64.deb ...
+Unpacking libbinutils:amd64 (2.38-4ubuntu2) over (2.38-3ubuntu1) ...
+Preparing to unpack .../27-binutils_2.38-4ubuntu2_amd64.deb ...
+Unpacking binutils (2.38-4ubuntu2) over (2.38-3ubuntu1) ...
+Preparing to unpack .../28-binutils-common_2.38-4ubuntu2_amd64.deb ...
+Unpacking binutils-common:amd64 (2.38-4ubuntu2) over (2.38-3ubuntu1) ...
+Preparing to unpack .../29-curl_7.81.0-1ubuntu1.6_amd64.deb ...
+Unpacking curl (7.81.0-1ubuntu1.6) over (7.81.0-1ubuntu1.4) ...
+Preparing to unpack .../30-libcurl4_7.81.0-1ubuntu1.6_amd64.deb ...
+Unpacking libcurl4:amd64 (7.81.0-1ubuntu1.6) over (7.81.0-1ubuntu1.4) ...
+Preparing to unpack .../31-dbus-user-session_1.12.20-2ubuntu4.1_amd64.deb ...
+Unpacking dbus-user-session (1.12.20-2ubuntu4.1) over (1.12.20-2ubuntu4) ...
+Preparing to unpack .../32-fwupd_1.7.9-1~22.04.1_amd64.deb ...
+Unpacking fwupd (1.7.9-1~22.04.1) over (1.7.5-3) ...
+Preparing to unpack .../33-libfwupdplugin5_1.7.9-1~22.04.1_amd64.deb ...
+Unpacking libfwupdplugin5:amd64 (1.7.9-1~22.04.1) over (1.7.5-3) ...
+Preparing to unpack .../34-libcurl3-gnutls_7.81.0-1ubuntu1.6_amd64.deb ...
+Unpacking libcurl3-gnutls:amd64 (7.81.0-1ubuntu1.6) over (7.81.0-1ubuntu1.4) ...
+Preparing to unpack .../35-libfwupd2_1.7.9-1~22.04.1_amd64.deb ...
+Unpacking libfwupd2:amd64 (1.7.9-1~22.04.1) over (1.7.5-3) ...
+Preparing to unpack .../36-git-man_1%3a2.34.1-1ubuntu1.5_all.deb ...
+Unpacking git-man (1:2.34.1-1ubuntu1.5) over (1:2.34.1-1ubuntu1.4) ...
+Preparing to unpack .../37-git_1%3a2.34.1-1ubuntu1.5_amd64.deb ...
+Unpacking git (1:2.34.1-1ubuntu1.5) over (1:2.34.1-1ubuntu1.4) ...
+Preparing to unpack .../38-grub-efi-amd64-signed_1.182~22.04.1+2.06-2ubuntu10_amd64.deb ...
+Unpacking grub-efi-amd64-signed (1.182~22.04.1+2.06-2ubuntu10) over (1.180+2.06-2ubuntu7) ...
+Preparing to unpack .../39-grub-efi-amd64-bin_2.06-2ubuntu10_amd64.deb ...
+Unpacking grub-efi-amd64-bin (2.06-2ubuntu10) over (2.06-2ubuntu7) ...
+Preparing to unpack .../40-libksba8_1.6.0-2ubuntu0.1_amd64.deb ...
+Unpacking libksba8:amd64 (1.6.0-2ubuntu0.1) over (1.6.0-2build1) ...
+Selecting previously unselected package linux-modules-5.15.0-1023-aws.
+Preparing to unpack .../41-linux-modules-5.15.0-1023-aws_5.15.0-1023.27_amd64.deb ...
+Unpacking linux-modules-5.15.0-1023-aws (5.15.0-1023.27) ...
+Selecting previously unselected package linux-image-5.15.0-1023-aws.
+Preparing to unpack .../42-linux-image-5.15.0-1023-aws_5.15.0-1023.27_amd64.deb ...
+Unpacking linux-image-5.15.0-1023-aws (5.15.0-1023.27) ...
+Preparing to unpack .../43-linux-aws_5.15.0.1023.23_amd64.deb ...
+Unpacking linux-aws (5.15.0.1023.23) over (5.15.0.1019.19) ...
+Preparing to unpack .../44-linux-image-aws_5.15.0.1023.23_amd64.deb ...
+Unpacking linux-image-aws (5.15.0.1023.23) over (5.15.0.1019.19) ...
+Selecting previously unselected package linux-aws-headers-5.15.0-1023.
+Preparing to unpack .../45-linux-aws-headers-5.15.0-1023_5.15.0-1023.27_all.deb ...
+Unpacking linux-aws-headers-5.15.0-1023 (5.15.0-1023.27) ...
+Selecting previously unselected package linux-headers-5.15.0-1023-aws.
+Preparing to unpack .../46-linux-headers-5.15.0-1023-aws_5.15.0-1023.27_amd64.deb ...
+Unpacking linux-headers-5.15.0-1023-aws (5.15.0-1023.27) ...
+Preparing to unpack .../47-linux-headers-aws_5.15.0.1023.23_amd64.deb ...
+Unpacking linux-headers-aws (5.15.0.1023.23) over (5.15.0.1019.19) ...
+Preparing to unpack .../48-python3-oauthlib_3.2.0-1ubuntu0.1_all.deb ...
+Unpacking python3-oauthlib (3.2.0-1ubuntu0.1) over (3.2.0-1) ...
+Preparing to unpack .../49-snapd_2.57.5+22.04_amd64.deb ...
+Unpacking snapd (2.57.5+22.04) over (2.56.2+22.04ubuntu1) ...
+Selecting previously unselected package python3-magic.
+Preparing to unpack .../50-python3-magic_2%3a0.4.24-2_all.deb ...
+Unpacking python3-magic (2:0.4.24-2) ...
+Preparing to unpack .../51-sosreport_4.4-1ubuntu1.22.04.1_amd64.deb ...
+Unpacking sosreport (4.4-1ubuntu1.22.04.1) over (4.3-1ubuntu2) ...
+Selecting previously unselected package systemd-hwe-hwdb.
+Preparing to unpack .../52-systemd-hwe-hwdb_249.11.1_all.deb ...
+Unpacking systemd-hwe-hwdb (249.11.1) ...
+Preparing to unpack .../53-cloud-init_22.3.4-0ubuntu1~22.04.1_all.deb ...
+Unpacking cloud-init (22.3.4-0ubuntu1~22.04.1) over (22.2-0ubuntu1~22.04.3) ...
+Preparing to unpack .../54-kpartx_0.8.8-1ubuntu1.22.04.1_amd64.deb ...
+Unpacking kpartx (0.8.8-1ubuntu1.22.04.1) over (0.8.8-1ubuntu1) ...
+Preparing to unpack .../55-multipath-tools_0.8.8-1ubuntu1.22.04.1_amd64.deb ...
+Unpacking multipath-tools (0.8.8-1ubuntu1.22.04.1) over (0.8.8-1ubuntu1) ...
+Setting up libksba8:amd64 (1.6.0-2ubuntu0.1) ...
+Setting up apt-utils (2.4.8) ...
+Setting up bind9-libs:amd64 (1:9.18.1-1ubuntu1.2) ...
+Setting up distro-info-data (0.52ubuntu0.2) ...
+Setting up libsqlite3-0:amd64 (3.37.2-2ubuntu0.1) ...
+Setting up binutils-common:amd64 (2.38-4ubuntu2) ...
+Setting up isc-dhcp-client (4.4.1-2.3ubuntu2.3) ...
+Setting up libctf-nobfd0:amd64 (2.38-4ubuntu2) ...
+Setting up libnetplan0:amd64 (0.105-0ubuntu2~22.04.1) ...
+Setting up libcurl3-gnutls:amd64 (7.81.0-1ubuntu1.6) ...
+Setting up systemd (249.11-0ubuntu3.6) ...
+Setting up libntfs-3g89 (1:2021.8.22-3ubuntu1.2) ...
+Setting up perl-modules-5.34 (5.34.0-3ubuntu1.1) ...
+Setting up xxd (2:8.2.3995-1ubuntu2.1) ...
+Setting up ntfs-3g (1:2021.8.22-3ubuntu1.2) ...
+Setting up tzdata (2022f-0ubuntu0.22.04.1) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+
+Current default time zone: 'Etc/UTC'
+Local time is now:      Mon Nov 28 08:46:56 UTC 2022.
+Universal Time is now:  Mon Nov 28 08:46:56 UTC 2022.
+Run 'dpkg-reconfigure tzdata' if you wish to change it.
+
+Setting up libpython3.10-stdlib:amd64 (3.10.6-1~22.04.1) ...
+Setting up vim-common (2:8.2.3995-1ubuntu2.1) ...
+Setting up linux-aws-headers-5.15.0-1023 (5.15.0-1023.27) ...
+Setting up libdbus-1-3:amd64 (1.12.20-2ubuntu4.1) ...
+Setting up dbus (1.12.20-2ubuntu4.1) ...
+A reboot is required to replace the running dbus-daemon.
+Please reboot the system when convenient.
+Setting up udev (249.11-0ubuntu3.6) ...
+Setting up sudo (1.9.9-1ubuntu2.1) ...
+Setting up systemd-hwe-hwdb (249.11.1) ...
+Setting up linux-headers-5.15.0-1023-aws (5.15.0-1023.27) ...
+Setting up kpartx (0.8.8-1ubuntu1.22.04.1) ...
+Setting up libcurl4:amd64 (7.81.0-1ubuntu1.6) ...
+Setting up git-man (1:2.34.1-1ubuntu1.5) ...
+Setting up isc-dhcp-common (4.4.1-2.3ubuntu2.3) ...
+Setting up curl (7.81.0-1ubuntu1.6) ...
+Setting up libbinutils:amd64 (2.38-4ubuntu2) ...
+Setting up vim-runtime (2:8.2.3995-1ubuntu2.1) ...
+Setting up grub-efi-amd64-bin (2.06-2ubuntu10) ...
+Setting up bind9-host (1:9.18.1-1ubuntu1.2) ...
+Setting up openssl (3.0.2-0ubuntu1.7) ...
+Setting up rsync (3.2.3-8ubuntu3.1) ...
+rsync.service is a disabled or a static unit not running, not starting it.
+Setting up libpython3-stdlib:amd64 (3.10.6-1~22.04) ...
+Setting up libctf0:amd64 (2.38-4ubuntu2) ...
+Setting up libpython3.10:amd64 (3.10.6-1~22.04.1) ...
+Setting up systemd-sysv (249.11-0ubuntu3.6) ...
+Setting up libperl5.34:amd64 (5.34.0-3ubuntu1.1) ...
+Setting up vim (2:8.2.3995-1ubuntu2.1) ...
+Setting up python3.10 (3.10.6-1~22.04.1) ...
+Setting up grub-efi-amd64-signed (1.182~22.04.1+2.06-2ubuntu10) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+Trying to migrate /boot/efi into esp config
+Unknown device "/dev/disk/by-id/*": No such file or directory
+Installing grub to /boot/efi.
+Installing for x86_64-efi platform.
+grub-install: warning: EFI variables cannot be set on this system.
+grub-install: warning: You will have to complete the GRUB setup manually.
+Installation finished. No error reported.
+Setting up libfwupd2:amd64 (1.7.9-1~22.04.1) ...
+Setting up linux-headers-aws (5.15.0.1023.23) ...
+Setting up libnss-systemd:amd64 (249.11-0ubuntu3.6) ...
+Setting up python3 (3.10.6-1~22.04) ...
+running python rtupdate hooks for python3.10...
+running python post-rtupdate hooks for python3.10...
+Setting up vim-tiny (2:8.2.3995-1ubuntu2.1) ...
+Setting up python3-distupgrade (1:22.04.14) ...
+Setting up multipath-tools (0.8.8-1ubuntu1.22.04.1) ...
+Could not execute systemctl:  at /usr/bin/deb-systemd-invoke line 142.
+Setting up netplan.io (0.105-0ubuntu2~22.04.1) ...
+Setting up perl (5.34.0-3ubuntu1.1) ...
+Setting up python3-oauthlib (3.2.0-1ubuntu0.1) ...
+Setting up ubuntu-release-upgrader-core (1:22.04.14) ...
+Setting up git (1:2.34.1-1ubuntu1.5) ...
+Setting up libpam-systemd:amd64 (249.11-0ubuntu3.6) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+Setting up ubuntu-advantage-tools (27.11.3~22.04.1) ...
+Installing new version of config file /etc/apt/apt.conf.d/20apt-esm-hook.conf ...
+Installing new version of config file /etc/ubuntu-advantage/help_data.yaml ...
+Installing new version of config file /etc/ubuntu-advantage/uaclient.conf ...
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+Setting up bind9-dnsutils (1:9.18.1-1ubuntu1.2) ...
+Setting up python3-magic (2:0.4.24-2) ...
+Setting up python3-lib2to3 (3.10.6-1~22.04) ...
+Setting up libfwupdplugin5:amd64 (1.7.9-1~22.04.1) ...
+Setting up fwupd (1.7.9-1~22.04.1) ...
+Installing new version of config file /etc/fwupd/redfish.conf ...
+fwupd-offline-update.service is a disabled or a static unit not running, not starting it.
+fwupd-refresh.service is a disabled or a static unit not running, not starting it.
+fwupd.service is a disabled or a static unit not running, not starting it.
+Setting up binutils-x86-64-linux-gnu (2.38-4ubuntu2) ...
+Setting up python3-distutils (3.10.6-1~22.04) ...
+Setting up cloud-init (22.3.4-0ubuntu1~22.04.1) ...
+Installing new version of config file /etc/cloud/cloud.cfg ...
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+Setting up python3-gdbm:amd64 (3.10.6-1~22.04) ...
+Setting up python3-problem-report (2.20.11-0ubuntu82.2) ...
+Setting up binutils (2.38-4ubuntu2) ...
+Setting up python3-apport (2.20.11-0ubuntu82.2) ...
+Setting up dbus-user-session (1.12.20-2ubuntu4.1) ...
+Setting up sosreport (4.4-1ubuntu1.22.04.1) ...
+Setting up snapd (2.57.5+22.04) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/snapd.aa-prompt-listener.service → /lib/systemd/system/snapd.aa-prompt-listener.service.
+snapd.failure.service is a disabled or a static unit not running, not starting it.
+snapd.snap-repair.service is a disabled or a static unit not running, not starting it.
+Setting up apport (2.20.11-0ubuntu82.2) ...
+apport-autoreport.service is a disabled or a static unit, not starting it.
+Setting up linux-image-5.15.0-1023-aws (5.15.0-1023.27) ...
+I: /boot/vmlinuz is now a symlink to vmlinuz-5.15.0-1023-aws
+I: /boot/initrd.img is now a symlink to initrd.img-5.15.0-1023-aws
+Setting up linux-image-aws (5.15.0.1023.23) ...
+Setting up linux-modules-5.15.0-1023-aws (5.15.0-1023.27) ...
+Setting up linux-aws (5.15.0.1023.23) ...
+Processing triggers for rsyslog (8.2112.0-2ubuntu2.2) ...
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for install-info (6.8-4build1) ...
+Processing triggers for initramfs-tools (0.140ubuntu13) ...
+update-initramfs: Generating /boot/initrd.img-5.15.0-1019-aws
+Processing triggers for libc-bin (2.35-0ubuntu3.1) ...
+Processing triggers for linux-image-5.15.0-1023-aws (5.15.0-1023.27) ...
+/etc/kernel/postinst.d/initramfs-tools:
+update-initramfs: Generating /boot/initrd.img-5.15.0-1023-aws
+/etc/kernel/postinst.d/zz-update-grub:
+Sourcing file `/etc/default/grub'
+Sourcing file `/etc/default/grub.d/40-force-partuuid.cfg'
+Sourcing file `/etc/default/grub.d/50-cloudimg-settings.cfg'
+Sourcing file `/etc/default/grub.d/init-select.cfg'
+Generating grub configuration file ...
+GRUB_FORCE_PARTUUID is set, will attempt initrdless boot
+Found linux image: /boot/vmlinuz-5.15.0-1023-aws
+Found initrd image: /boot/microcode.cpio /boot/initrd.img-5.15.0-1023-aws
+Found linux image: /boot/vmlinuz-5.15.0-1019-aws
+Found initrd image: /boot/microcode.cpio /boot/initrd.img-5.15.0-1019-aws
+Warning: os-prober will not be executed to detect other bootable partitions.
+Systems on them will not be added to the GRUB boot configuration.
+Check GRUB_DISABLE_OS_PROBER documentation entry.
+done
+
+Pending kernel upgrade!
+
+Running kernel version:
+  5.15.0-1019-aws
+
+Diagnostics:
+  The currently running kernel version is not the expected kernel version 5.15.0-1023-aws.
+
+Restarting the system to load the new kernel will not be handled automatically, so you should consider rebooting. [Return]
+
+Services to be restarted:
+ systemctl restart cron.service
+ systemctl restart packagekit.service
+ systemctl restart polkit.service
+ systemctl restart ssh.service
+ systemctl restart udisks2.service
+
+Service restarts being deferred:
+ systemctl restart ModemManager.service
+ /etc/needrestart/restart.d/dbus.service
+ systemctl restart networkd-dispatcher.service
+ systemctl restart systemd-logind.service
+ systemctl restart unattended-upgrades.service
+ systemctl restart user@1000.service
+ systemctl restart user@1001.service
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+default-jdk is already the newest version (2:1.11-72build2).
+The following packages were automatically installed and are no longer required:
+  libflashrom1 libftdi1-2
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+openjdk version "11.0.17" 2022-10-18
+OpenJDK Runtime Environment (build 11.0.17+8-post-Ubuntu-1ubuntu222.04)
+OpenJDK 64-Bit Server VM (build 11.0.17+8-post-Ubuntu-1ubuntu222.04, mixed mode, sharing)
+--2022-11-28 08:47:47--  https://dlcdn.apache.org/tomcat/tomcat-10/v10.0.27/bin/apache-tomcat-10.0.27.tar.gz
+Resolving dlcdn.apache.org (dlcdn.apache.org)... 151.101.2.132, 2a04:4e42::644
+Connecting to dlcdn.apache.org (dlcdn.apache.org)|151.101.2.132|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 11984522 (11M) [application/x-gzip]
+Saving to: ‘apache-tomcat-10.0.27.tar.gz’
+
+     0K .......... .......... .......... .......... ..........  0% 4.07M 3s
+    50K .......... .......... .......... .......... ..........  0% 17.4M 2s
+   100K .......... .......... .......... .......... ..........  1% 13.7M 1s
+   150K .......... .......... .......... .......... ..........  1% 11.8M 1s
+   200K .......... .......... .......... .......... ..........  2% 28.6M 1s
+   250K .......... .......... .......... .......... ..........  2% 24.3M 1s
+   300K .......... .......... .......... .......... ..........  2% 36.5M 1s
+   350K .......... .......... .......... .......... ..........  3%  125M 1s
+   400K .......... .......... .......... .......... ..........  3%  158M 1s
+   450K .......... .......... .......... .......... ..........  4%  291M 1s
+   500K .......... .......... .......... .......... ..........  4%  155M 1s
+   550K .......... .......... .......... .......... ..........  5%  143M 1s
+   600K .......... .......... .......... .......... ..........  5% 9.52M 1s
+   650K .......... .......... .......... .......... ..........  5% 23.7M 1s
+   700K .......... .......... .......... .......... ..........  6% 18.9M 1s
+   750K .......... .......... .......... .......... ..........  6% 62.7M 1s
+   800K .......... .......... .......... .......... ..........  7%  195M 1s
+   850K .......... .......... .......... .......... ..........  7%  213M 0s
+   900K .......... .......... .......... .......... ..........  8%  233M 0s
+   950K .......... .......... .......... .......... ..........  8%  150M 0s
+  1000K .......... .......... .......... .......... ..........  8%  136M 0s
+  1050K .......... .......... .......... .......... ..........  9%  213M 0s
+  1100K .......... .......... .......... .......... ..........  9% 13.5M 0s
+  1150K .......... .......... .......... .......... .......... 10% 12.1M 0s
+  1200K .......... .......... .......... .......... .......... 10% 19.9M 0s
+  1250K .......... .......... .......... .......... .......... 11%  132M 0s
+  1300K .......... .......... .......... .......... .......... 11%  251M 0s
+  1350K .......... .......... .......... .......... .......... 11%  257M 0s
+  1400K .......... .......... .......... .......... .......... 12% 19.8M 0s
+  1450K .......... .......... .......... .......... .......... 12% 21.6M 0s
+  1500K .......... .......... .......... .......... .......... 13%  214M 0s
+  1550K .......... .......... .......... .......... .......... 13%  266M 0s
+  1600K .......... .......... .......... .......... .......... 14%  205M 0s
+  1650K .......... .......... .......... .......... .......... 14%  133M 0s
+  1700K .......... .......... .......... .......... .......... 14%  184M 0s
+  1750K .......... .......... .......... .......... .......... 15%  183M 0s
+  1800K .......... .......... .......... .......... .......... 15%  214M 0s
+  1850K .......... .......... .......... .......... .......... 16%  252M 0s
+  1900K .......... .......... .......... .......... .......... 16%  177M 0s
+  1950K .......... .......... .......... .......... .......... 17%  207M 0s
+  2000K .......... .......... .......... .......... .......... 17%  141M 0s
+  2050K .......... .......... .......... .......... .......... 17%  249M 0s
+  2100K .......... .......... .......... .......... .......... 18%  202M 0s
+  2150K .......... .......... .......... .......... .......... 18%  173M 0s
+  2200K .......... .......... .......... .......... .......... 19%  168M 0s
+  2250K .......... .......... .......... .......... .......... 19%  149M 0s
+  2300K .......... .......... .......... .......... .......... 20%  213M 0s
+  2350K .......... .......... .......... .......... .......... 20% 7.32M 0s
+  2400K .......... .......... .......... .......... .......... 20% 8.94M 0s
+  2450K .......... .......... .......... .......... .......... 21% 8.20M 0s
+  2500K .......... .......... .......... .......... .......... 21%  271M 0s
+  2550K .......... .......... .......... .......... .......... 22%  242M 0s
+  2600K .......... .......... .......... .......... .......... 22%  232M 0s
+  2650K .......... .......... .......... .......... .......... 23%  243M 0s
+  2700K .......... .......... .......... .......... .......... 23% 13.6M 0s
+  2750K .......... .......... .......... .......... .......... 23% 12.3M 0s
+  2800K .......... .......... .......... .......... .......... 24% 35.0M 0s
+  2850K .......... .......... .......... .......... .......... 24%  233M 0s
+  2900K .......... .......... .......... .......... .......... 25% 13.9M 0s
+  2950K .......... .......... .......... .......... .......... 25% 79.1M 0s
+  3000K .......... .......... .......... .......... .......... 26%  189M 0s
+  3050K .......... .......... .......... .......... .......... 26%  263M 0s
+  3100K .......... .......... .......... .......... .......... 26%  260M 0s
+  3150K .......... .......... .......... .......... .......... 27%  292M 0s
+  3200K .......... .......... .......... .......... .......... 27%  242M 0s
+  3250K .......... .......... .......... .......... .......... 28%  287M 0s
+  3300K .......... .......... .......... .......... .......... 28%  277M 0s
+  3350K .......... .......... .......... .......... .......... 29%  300M 0s
+  3400K .......... .......... .......... .......... .......... 29%  214M 0s
+  3450K .......... .......... .......... .......... .......... 29%  283M 0s
+  3500K .......... .......... .......... .......... .......... 30%  137M 0s
+  3550K .......... .......... .......... .......... .......... 30%  282M 0s
+  3600K .......... .......... .......... .......... .......... 31% 84.7M 0s
+  3650K .......... .......... .......... .......... .......... 31%  282M 0s
+  3700K .......... .......... .......... .......... .......... 32%  262M 0s
+  3750K .......... .......... .......... .......... .......... 32%  277M 0s
+  3800K .......... .......... .......... .......... .......... 32% 31.2M 0s
+  3850K .......... .......... .......... .......... .......... 33% 13.5M 0s
+  3900K .......... .......... .......... .......... .......... 33% 2.39M 0s
+  3950K .......... .......... .......... .......... .......... 34% 15.7M 0s
+  4000K .......... .......... .......... .......... .......... 34% 20.2M 0s
+  4050K .......... .......... .......... .......... .......... 35%  253M 0s
+  4100K .......... .......... .......... .......... .......... 35%  246M 0s
+  4150K .......... .......... .......... .......... .......... 35%  126M 0s
+  4200K .......... .......... .......... .......... .......... 36%  137M 0s
+  4250K .......... .......... .......... .......... .......... 36% 6.25M 0s
+  4300K .......... .......... .......... .......... .......... 37% 9.04M 0s
+  4350K .......... .......... .......... .......... .......... 37%  179M 0s
+  4400K .......... .......... .......... .......... .......... 38%  192M 0s
+  4450K .......... .......... .......... .......... .......... 38%  175M 0s
+  4500K .......... .......... .......... .......... .......... 38%  253M 0s
+  4550K .......... .......... .......... .......... .......... 39%  210M 0s
+  4600K .......... .......... .......... .......... .......... 39% 8.25M 0s
+  4650K .......... .......... .......... .......... .......... 40% 14.8M 0s
+  4700K .......... .......... .......... .......... .......... 40% 27.4M 0s
+  4750K .......... .......... .......... .......... .......... 41%  155M 0s
+  4800K .......... .......... .......... .......... .......... 41%  103M 0s
+  4850K .......... .......... .......... .......... .......... 41% 7.60M 0s
+  4900K .......... .......... .......... .......... .......... 42% 11.0M 0s
+  4950K .......... .......... .......... .......... .......... 42% 14.5M 0s
+  5000K .......... .......... .......... .......... .......... 43% 42.8M 0s
+  5050K .......... .......... .......... .......... .......... 43%  250M 0s
+  5100K .......... .......... .......... .......... .......... 44%  228M 0s
+  5150K .......... .......... .......... .......... .......... 44%  207M 0s
+  5200K .......... .......... .......... .......... .......... 44%  186M 0s
+  5250K .......... .......... .......... .......... .......... 45%  111M 0s
+  5300K .......... .......... .......... .......... .......... 45%  149M 0s
+  5350K .......... .......... .......... .......... .......... 46%  153M 0s
+  5400K .......... .......... .......... .......... .......... 46%  106M 0s
+  5450K .......... .......... .......... .......... .......... 46% 5.80M 0s
+  5500K .......... .......... .......... .......... .......... 47% 18.9M 0s
+  5550K .......... .......... .......... .......... .......... 47% 17.9M 0s
+  5600K .......... .......... .......... .......... .......... 48%  195M 0s
+  5650K .......... .......... .......... .......... .......... 48%  188M 0s
+  5700K .......... .......... .......... .......... .......... 49%  258M 0s
+  5750K .......... .......... .......... .......... .......... 49%  219M 0s
+  5800K .......... .......... .......... .......... .......... 49% 10.5M 0s
+  5850K .......... .......... .......... .......... .......... 50% 43.0M 0s
+  5900K .......... .......... .......... .......... .......... 50%  215M 0s
+  5950K .......... .......... .......... .......... .......... 51%  213M 0s
+  6000K .......... .......... .......... .......... .......... 51%  138M 0s
+  6050K .......... .......... .......... .......... .......... 52%  181M 0s
+  6100K .......... .......... .......... .......... .......... 52%  110M 0s
+  6150K .......... .......... .......... .......... .......... 52%  127M 0s
+  6200K .......... .......... .......... .......... .......... 53%  183M 0s
+  6250K .......... .......... .......... .......... .......... 53%  209M 0s
+  6300K .......... .......... .......... .......... .......... 54%  221M 0s
+  6350K .......... .......... .......... .......... .......... 54% 27.3M 0s
+  6400K .......... .......... .......... .......... .......... 55% 7.07M 0s
+  6450K .......... .......... .......... .......... .......... 55% 8.43M 0s
+  6500K .......... .......... .......... .......... .......... 55%  225M 0s
+  6550K .......... .......... .......... .......... .......... 56%  268M 0s
+  6600K .......... .......... .......... .......... .......... 56%  121M 0s
+  6650K .......... .......... .......... .......... .......... 57%  105M 0s
+  6700K .......... .......... .......... .......... .......... 57%  127M 0s
+  6750K .......... .......... .......... .......... .......... 58%  231M 0s
+  6800K .......... .......... .......... .......... .......... 58%  200M 0s
+  6850K .......... .......... .......... .......... .......... 58%  193M 0s
+  6900K .......... .......... .......... .......... .......... 59% 5.72M 0s
+  6950K .......... .......... .......... .......... .......... 59% 7.79M 0s
+  7000K .......... .......... .......... .......... .......... 60% 16.7M 0s
+  7050K .......... .......... .......... .......... .......... 60% 71.8M 0s
+  7100K .......... .......... .......... .......... .......... 61%  218M 0s
+  7150K .......... .......... .......... .......... .......... 61%  203M 0s
+  7200K .......... .......... .......... .......... .......... 61%  143M 0s
+  7250K .......... .......... .......... .......... .......... 62%  168M 0s
+  7300K .......... .......... .......... .......... .......... 62%  114M 0s
+  7350K .......... .......... .......... .......... .......... 63% 10.4M 0s
+  7400K .......... .......... .......... .......... .......... 63% 4.38M 0s
+  7450K .......... .......... .......... .......... .......... 64% 27.1M 0s
+  7500K .......... .......... .......... .......... .......... 64% 23.3M 0s
+  7550K .......... .......... .......... .......... .......... 64%  254M 0s
+  7600K .......... .......... .......... .......... .......... 65% 14.9M 0s
+  7650K .......... .......... .......... .......... .......... 65% 34.9M 0s
+  7700K .......... .......... .......... .......... .......... 66%  298M 0s
+  7750K .......... .......... .......... .......... .......... 66%  309M 0s
+  7800K .......... .......... .......... .......... .......... 67%  245M 0s
+  7850K .......... .......... .......... .......... .......... 67%  289M 0s
+  7900K .......... .......... .......... .......... .......... 67%  306M 0s
+  7950K .......... .......... .......... .......... .......... 68%  313M 0s
+  8000K .......... .......... .......... .......... .......... 68%  267M 0s
+  8050K .......... .......... .......... .......... .......... 69%  310M 0s
+  8100K .......... .......... .......... .......... .......... 69%  309M 0s
+  8150K .......... .......... .......... .......... .......... 70%  310M 0s
+  8200K .......... .......... .......... .......... .......... 70%  258M 0s
+  8250K .......... .......... .......... .......... .......... 70%  300M 0s
+  8300K .......... .......... .......... .......... .......... 71%  300M 0s
+  8350K .......... .......... .......... .......... .......... 71%  313M 0s
+  8400K .......... .......... .......... .......... .......... 72%  279M 0s
+  8450K .......... .......... .......... .......... .......... 72%  310M 0s
+  8500K .......... .......... .......... .......... .......... 73%  310M 0s
+  8550K .......... .......... .......... .......... .......... 73%  312M 0s
+  8600K .......... .......... .......... .......... .......... 73%  241M 0s
+  8650K .......... .......... .......... .......... .......... 74%  271M 0s
+  8700K .......... .......... .......... .......... .......... 74%  309M 0s
+  8750K .......... .......... .......... .......... .......... 75% 3.34M 0s
+  8800K .......... .......... .......... .......... .......... 75% 17.6M 0s
+  8850K .......... .......... .......... .......... .......... 76% 22.0M 0s
+  8900K .......... .......... .......... .......... .......... 76% 54.1M 0s
+  8950K .......... .......... .......... .......... .......... 76%  295M 0s
+  9000K .......... .......... .......... .......... .......... 77%  248M 0s
+  9050K .......... .......... .......... .......... .......... 77%  309M 0s
+  9100K .......... .......... .......... .......... .......... 78%  310M 0s
+  9150K .......... .......... .......... .......... .......... 78%  292M 0s
+  9200K .......... .......... .......... .......... .......... 79%  275M 0s
+  9250K .......... .......... .......... .......... .......... 79%  296M 0s
+  9300K .......... .......... .......... .......... .......... 79%  299M 0s
+  9350K .......... .......... .......... .......... .......... 80%  306M 0s
+  9400K .......... .......... .......... .......... .......... 80%  247M 0s
+  9450K .......... .......... .......... .......... .......... 81%  309M 0s
+  9500K .......... .......... .......... .......... .......... 81%  310M 0s
+  9550K .......... .......... .......... .......... .......... 82%  284M 0s
+  9600K .......... .......... .......... .......... .......... 82%  276M 0s
+  9650K .......... .......... .......... .......... .......... 82%  310M 0s
+  9700K .......... .......... .......... .......... .......... 83%  307M 0s
+  9750K .......... .......... .......... .......... .......... 83%  311M 0s
+  9800K .......... .......... .......... .......... .......... 84%  256M 0s
+  9850K .......... .......... .......... .......... .......... 84%  299M 0s
+  9900K .......... .......... .......... .......... .......... 85%  307M 0s
+  9950K .......... .......... .......... .......... .......... 85%  296M 0s
+ 10000K .......... .......... .......... .......... .......... 85% 2.95M 0s
+ 10050K .......... .......... .......... .......... .......... 86% 22.0M 0s
+ 10100K .......... .......... .......... .......... .......... 86% 28.8M 0s
+ 10150K .......... .......... .......... .......... .......... 87%  237M 0s
+ 10200K .......... .......... .......... .......... .......... 87%  197M 0s
+ 10250K .......... .......... .......... .......... .......... 88%  294M 0s
+ 10300K .......... .......... .......... .......... .......... 88%  300M 0s
+ 10350K .......... .......... .......... .......... .......... 88%  215M 0s
+ 10400K .......... .......... .......... .......... .......... 89%  214M 0s
+ 10450K .......... .......... .......... .......... .......... 89%  237M 0s
+ 10500K .......... .......... .......... .......... .......... 90%  298M 0s
+ 10550K .......... .......... .......... .......... .......... 90%  253M 0s
+ 10600K .......... .......... .......... .......... .......... 90%  200M 0s
+ 10650K .......... .......... .......... .......... .......... 91% 5.80M 0s
+ 10700K .......... .......... .......... .......... .......... 91% 23.5M 0s
+ 10750K .......... .......... .......... .......... .......... 92% 28.3M 0s
+ 10800K .......... .......... .......... .......... .......... 92% 56.3M 0s
+ 10850K .......... .......... .......... .......... .......... 93%  277M 0s
+ 10900K .......... .......... .......... .......... .......... 93%  297M 0s
+ 10950K .......... .......... .......... .......... .......... 93% 11.7M 0s
+ 11000K .......... .......... .......... .......... .......... 94% 53.8M 0s
+ 11050K .......... .......... .......... .......... .......... 94%  243M 0s
+ 11100K .......... .......... .......... .......... .......... 95%  238M 0s
+ 11150K .......... .......... .......... .......... .......... 95%  204M 0s
+ 11200K .......... .......... .......... .......... .......... 96%  234M 0s
+ 11250K .......... .......... .......... .......... .......... 96%  295M 0s
+ 11300K .......... .......... .......... .......... .......... 96%  292M 0s
+ 11350K .......... .......... .......... .......... .......... 97%  287M 0s
+ 11400K .......... .......... .......... .......... .......... 97%  249M 0s
+ 11450K .......... .......... .......... .......... .......... 98%  254M 0s
+ 11500K .......... .......... .......... .......... .......... 98% 12.0M 0s
+ 11550K .......... .......... .......... .......... .......... 99% 7.72M 0s
+ 11600K .......... .......... .......... .......... .......... 99% 5.61M 0s
+ 11650K .......... .......... .......... .......... .......... 99%  181M 0s
+ 11700K ...                                                   100% 6.77T=0.3s
+
+2022-11-28 08:47:47 (32.9 MB/s) - ‘apache-tomcat-10.0.27.tar.gz’ saved [11984522/11984522]
+
+apache-tomcat-10.0.27/conf/
+apache-tomcat-10.0.27/conf/catalina.policy
+apache-tomcat-10.0.27/conf/catalina.properties
+apache-tomcat-10.0.27/conf/context.xml
+apache-tomcat-10.0.27/conf/jaspic-providers.xml
+apache-tomcat-10.0.27/conf/jaspic-providers.xsd
+apache-tomcat-10.0.27/conf/logging.properties
+apache-tomcat-10.0.27/conf/server.xml
+apache-tomcat-10.0.27/conf/tomcat-users.xml
+apache-tomcat-10.0.27/conf/tomcat-users.xsd
+apache-tomcat-10.0.27/conf/web.xml
+apache-tomcat-10.0.27/bin/
+apache-tomcat-10.0.27/lib/
+apache-tomcat-10.0.27/logs/
+apache-tomcat-10.0.27/temp/
+apache-tomcat-10.0.27/webapps/
+apache-tomcat-10.0.27/webapps/ROOT/
+apache-tomcat-10.0.27/webapps/ROOT/WEB-INF/
+apache-tomcat-10.0.27/webapps/docs/
+apache-tomcat-10.0.27/webapps/docs/WEB-INF/
+apache-tomcat-10.0.27/webapps/docs/annotationapi/
+apache-tomcat-10.0.27/webapps/docs/api/
+apache-tomcat-10.0.27/webapps/docs/appdev/
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/docs/
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/src/
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/src/mypackage/
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/web/
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/web/WEB-INF/
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/web/images/
+apache-tomcat-10.0.27/webapps/docs/architecture/
+apache-tomcat-10.0.27/webapps/docs/architecture/requestProcess/
+apache-tomcat-10.0.27/webapps/docs/architecture/startup/
+apache-tomcat-10.0.27/webapps/docs/config/
+apache-tomcat-10.0.27/webapps/docs/elapi/
+apache-tomcat-10.0.27/webapps/docs/images/
+apache-tomcat-10.0.27/webapps/docs/images/fonts/
+apache-tomcat-10.0.27/webapps/docs/jaspicapi/
+apache-tomcat-10.0.27/webapps/docs/jspapi/
+apache-tomcat-10.0.27/webapps/docs/servletapi/
+apache-tomcat-10.0.27/webapps/docs/tribes/
+apache-tomcat-10.0.27/webapps/docs/websocketapi/
+apache-tomcat-10.0.27/webapps/examples/
+apache-tomcat-10.0.27/webapps/examples/META-INF/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/cal/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/checkbox/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/colors/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/compressionFilters/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/dates/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/error/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/filters/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/http2/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/el/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/listeners/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/nonblocking/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/num/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/sessions/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/trailers/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/util/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/validators/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/chat/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/jsp/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/lib/
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/tags/
+apache-tomcat-10.0.27/webapps/examples/jsp/
+apache-tomcat-10.0.27/webapps/examples/jsp/async/
+apache-tomcat-10.0.27/webapps/examples/jsp/cal/
+apache-tomcat-10.0.27/webapps/examples/jsp/checkbox/
+apache-tomcat-10.0.27/webapps/examples/jsp/colors/
+apache-tomcat-10.0.27/webapps/examples/jsp/dates/
+apache-tomcat-10.0.27/webapps/examples/jsp/error/
+apache-tomcat-10.0.27/webapps/examples/jsp/forward/
+apache-tomcat-10.0.27/webapps/examples/jsp/images/
+apache-tomcat-10.0.27/webapps/examples/jsp/include/
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspx/
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/
+apache-tomcat-10.0.27/webapps/examples/jsp/jsptoserv/
+apache-tomcat-10.0.27/webapps/examples/jsp/num/
+apache-tomcat-10.0.27/webapps/examples/jsp/security/
+apache-tomcat-10.0.27/webapps/examples/jsp/security/protected/
+apache-tomcat-10.0.27/webapps/examples/jsp/sessions/
+apache-tomcat-10.0.27/webapps/examples/jsp/simpletag/
+apache-tomcat-10.0.27/webapps/examples/jsp/snp/
+apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/
+apache-tomcat-10.0.27/webapps/examples/jsp/xml/
+apache-tomcat-10.0.27/webapps/examples/servlets/
+apache-tomcat-10.0.27/webapps/examples/servlets/images/
+apache-tomcat-10.0.27/webapps/examples/servlets/nonblocking/
+apache-tomcat-10.0.27/webapps/examples/websocket/
+apache-tomcat-10.0.27/webapps/host-manager/
+apache-tomcat-10.0.27/webapps/host-manager/META-INF/
+apache-tomcat-10.0.27/webapps/host-manager/WEB-INF/
+apache-tomcat-10.0.27/webapps/host-manager/WEB-INF/jsp/
+apache-tomcat-10.0.27/webapps/host-manager/css/
+apache-tomcat-10.0.27/webapps/host-manager/images/
+apache-tomcat-10.0.27/webapps/manager/
+apache-tomcat-10.0.27/webapps/manager/META-INF/
+apache-tomcat-10.0.27/webapps/manager/WEB-INF/
+apache-tomcat-10.0.27/webapps/manager/WEB-INF/jsp/
+apache-tomcat-10.0.27/webapps/manager/css/
+apache-tomcat-10.0.27/webapps/manager/images/
+apache-tomcat-10.0.27/work/
+apache-tomcat-10.0.27/BUILDING.txt
+apache-tomcat-10.0.27/CONTRIBUTING.md
+apache-tomcat-10.0.27/LICENSE
+apache-tomcat-10.0.27/NOTICE
+apache-tomcat-10.0.27/README.md
+apache-tomcat-10.0.27/RELEASE-NOTES
+apache-tomcat-10.0.27/RUNNING.txt
+apache-tomcat-10.0.27/bin/bootstrap.jar
+apache-tomcat-10.0.27/bin/catalina-tasks.xml
+apache-tomcat-10.0.27/bin/catalina.bat
+apache-tomcat-10.0.27/bin/ciphers.bat
+apache-tomcat-10.0.27/bin/commons-daemon-native.tar.gz
+apache-tomcat-10.0.27/bin/commons-daemon.jar
+apache-tomcat-10.0.27/bin/configtest.bat
+apache-tomcat-10.0.27/bin/digest.bat
+apache-tomcat-10.0.27/bin/makebase.bat
+apache-tomcat-10.0.27/bin/migrate.bat
+apache-tomcat-10.0.27/bin/setclasspath.bat
+apache-tomcat-10.0.27/bin/shutdown.bat
+apache-tomcat-10.0.27/bin/startup.bat
+apache-tomcat-10.0.27/bin/tomcat-juli.jar
+apache-tomcat-10.0.27/bin/tomcat-native.tar.gz
+apache-tomcat-10.0.27/bin/tool-wrapper.bat
+apache-tomcat-10.0.27/bin/version.bat
+apache-tomcat-10.0.27/lib/annotations-api.jar
+apache-tomcat-10.0.27/lib/catalina-ant.jar
+apache-tomcat-10.0.27/lib/catalina-ha.jar
+apache-tomcat-10.0.27/lib/catalina-ssi.jar
+apache-tomcat-10.0.27/lib/catalina-storeconfig.jar
+apache-tomcat-10.0.27/lib/catalina-tribes.jar
+apache-tomcat-10.0.27/lib/catalina.jar
+apache-tomcat-10.0.27/lib/ecj-4.20.jar
+apache-tomcat-10.0.27/lib/el-api.jar
+apache-tomcat-10.0.27/lib/jakartaee-migration-1.0.4-shaded.jar
+apache-tomcat-10.0.27/lib/jasper-el.jar
+apache-tomcat-10.0.27/lib/jasper.jar
+apache-tomcat-10.0.27/lib/jaspic-api.jar
+apache-tomcat-10.0.27/lib/jsp-api.jar
+apache-tomcat-10.0.27/lib/servlet-api.jar
+apache-tomcat-10.0.27/lib/tomcat-api.jar
+apache-tomcat-10.0.27/lib/tomcat-coyote.jar
+apache-tomcat-10.0.27/lib/tomcat-dbcp.jar
+apache-tomcat-10.0.27/lib/tomcat-i18n-cs.jar
+apache-tomcat-10.0.27/lib/tomcat-i18n-de.jar
+apache-tomcat-10.0.27/lib/tomcat-i18n-es.jar
+apache-tomcat-10.0.27/lib/tomcat-i18n-fr.jar
+apache-tomcat-10.0.27/lib/tomcat-i18n-ja.jar
+apache-tomcat-10.0.27/lib/tomcat-i18n-ko.jar
+apache-tomcat-10.0.27/lib/tomcat-i18n-pt-BR.jar
+apache-tomcat-10.0.27/lib/tomcat-i18n-ru.jar
+apache-tomcat-10.0.27/lib/tomcat-i18n-zh-CN.jar
+apache-tomcat-10.0.27/lib/tomcat-jdbc.jar
+apache-tomcat-10.0.27/lib/tomcat-jni.jar
+apache-tomcat-10.0.27/lib/tomcat-util-scan.jar
+apache-tomcat-10.0.27/lib/tomcat-util.jar
+apache-tomcat-10.0.27/lib/tomcat-websocket.jar
+apache-tomcat-10.0.27/lib/websocket-api.jar
+apache-tomcat-10.0.27/temp/safeToDelete.tmp
+apache-tomcat-10.0.27/webapps/ROOT/RELEASE-NOTES.txt
+apache-tomcat-10.0.27/webapps/ROOT/WEB-INF/web.xml
+apache-tomcat-10.0.27/webapps/ROOT/asf-logo-wide.svg
+apache-tomcat-10.0.27/webapps/ROOT/bg-button.png
+apache-tomcat-10.0.27/webapps/ROOT/bg-middle.png
+apache-tomcat-10.0.27/webapps/ROOT/bg-nav.png
+apache-tomcat-10.0.27/webapps/ROOT/bg-upper.png
+apache-tomcat-10.0.27/webapps/ROOT/favicon.ico
+apache-tomcat-10.0.27/webapps/ROOT/index.jsp
+apache-tomcat-10.0.27/webapps/ROOT/tomcat.css
+apache-tomcat-10.0.27/webapps/ROOT/tomcat.svg
+apache-tomcat-10.0.27/webapps/docs/BUILDING.txt
+apache-tomcat-10.0.27/webapps/docs/RELEASE-NOTES.txt
+apache-tomcat-10.0.27/webapps/docs/RUNNING.txt
+apache-tomcat-10.0.27/webapps/docs/WEB-INF/web.xml
+apache-tomcat-10.0.27/webapps/docs/aio.html
+apache-tomcat-10.0.27/webapps/docs/annotationapi/index.html
+apache-tomcat-10.0.27/webapps/docs/api/index.html
+apache-tomcat-10.0.27/webapps/docs/appdev/build.xml.txt
+apache-tomcat-10.0.27/webapps/docs/appdev/deployment.html
+apache-tomcat-10.0.27/webapps/docs/appdev/index.html
+apache-tomcat-10.0.27/webapps/docs/appdev/installation.html
+apache-tomcat-10.0.27/webapps/docs/appdev/introduction.html
+apache-tomcat-10.0.27/webapps/docs/appdev/processes.html
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/build.xml
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/docs/README.txt
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/index.html
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/sample.war
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/src/mypackage/Hello.java
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/web/WEB-INF/web.xml
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/web/hello.jsp
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/web/images/tomcat.gif
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/web/index.html
+apache-tomcat-10.0.27/webapps/docs/appdev/source.html
+apache-tomcat-10.0.27/webapps/docs/appdev/web.xml.txt
+apache-tomcat-10.0.27/webapps/docs/apr.html
+apache-tomcat-10.0.27/webapps/docs/architecture/index.html
+apache-tomcat-10.0.27/webapps/docs/architecture/overview.html
+apache-tomcat-10.0.27/webapps/docs/architecture/requestProcess.html
+apache-tomcat-10.0.27/webapps/docs/architecture/requestProcess/authentication-process.png
+apache-tomcat-10.0.27/webapps/docs/architecture/requestProcess/request-process.png
+apache-tomcat-10.0.27/webapps/docs/architecture/startup.html
+apache-tomcat-10.0.27/webapps/docs/architecture/startup/serverStartup.pdf
+apache-tomcat-10.0.27/webapps/docs/architecture/startup/serverStartup.txt
+apache-tomcat-10.0.27/webapps/docs/balancer-howto.html
+apache-tomcat-10.0.27/webapps/docs/building.html
+apache-tomcat-10.0.27/webapps/docs/cdi.html
+apache-tomcat-10.0.27/webapps/docs/cgi-howto.html
+apache-tomcat-10.0.27/webapps/docs/changelog.html
+apache-tomcat-10.0.27/webapps/docs/class-loader-howto.html
+apache-tomcat-10.0.27/webapps/docs/cluster-howto.html
+apache-tomcat-10.0.27/webapps/docs/comments.html
+apache-tomcat-10.0.27/webapps/docs/config/ajp.html
+apache-tomcat-10.0.27/webapps/docs/config/automatic-deployment.html
+apache-tomcat-10.0.27/webapps/docs/config/cluster-channel.html
+apache-tomcat-10.0.27/webapps/docs/config/cluster-deployer.html
+apache-tomcat-10.0.27/webapps/docs/config/cluster-interceptor.html
+apache-tomcat-10.0.27/webapps/docs/config/cluster-listener.html
+apache-tomcat-10.0.27/webapps/docs/config/cluster-manager.html
+apache-tomcat-10.0.27/webapps/docs/config/cluster-membership.html
+apache-tomcat-10.0.27/webapps/docs/config/cluster-receiver.html
+apache-tomcat-10.0.27/webapps/docs/config/cluster-sender.html
+apache-tomcat-10.0.27/webapps/docs/config/cluster-valve.html
+apache-tomcat-10.0.27/webapps/docs/config/cluster.html
+apache-tomcat-10.0.27/webapps/docs/config/context.html
+apache-tomcat-10.0.27/webapps/docs/config/cookie-processor.html
+apache-tomcat-10.0.27/webapps/docs/config/credentialhandler.html
+apache-tomcat-10.0.27/webapps/docs/config/engine.html
+apache-tomcat-10.0.27/webapps/docs/config/executor.html
+apache-tomcat-10.0.27/webapps/docs/config/filter.html
+apache-tomcat-10.0.27/webapps/docs/config/globalresources.html
+apache-tomcat-10.0.27/webapps/docs/config/host.html
+apache-tomcat-10.0.27/webapps/docs/config/http.html
+apache-tomcat-10.0.27/webapps/docs/config/http2.html
+apache-tomcat-10.0.27/webapps/docs/config/index.html
+apache-tomcat-10.0.27/webapps/docs/config/jar-scan-filter.html
+apache-tomcat-10.0.27/webapps/docs/config/jar-scanner.html
+apache-tomcat-10.0.27/webapps/docs/config/jaspic.html
+apache-tomcat-10.0.27/webapps/docs/config/listeners.html
+apache-tomcat-10.0.27/webapps/docs/config/loader.html
+apache-tomcat-10.0.27/webapps/docs/config/manager.html
+apache-tomcat-10.0.27/webapps/docs/config/realm.html
+apache-tomcat-10.0.27/webapps/docs/config/resources.html
+apache-tomcat-10.0.27/webapps/docs/config/server.html
+apache-tomcat-10.0.27/webapps/docs/config/service.html
+apache-tomcat-10.0.27/webapps/docs/config/sessionidgenerator.html
+apache-tomcat-10.0.27/webapps/docs/config/systemprops.html
+apache-tomcat-10.0.27/webapps/docs/config/valve.html
+apache-tomcat-10.0.27/webapps/docs/connectors.html
+apache-tomcat-10.0.27/webapps/docs/default-servlet.html
+apache-tomcat-10.0.27/webapps/docs/deployer-howto.html
+apache-tomcat-10.0.27/webapps/docs/developers.html
+apache-tomcat-10.0.27/webapps/docs/elapi/index.html
+apache-tomcat-10.0.27/webapps/docs/graal.html
+apache-tomcat-10.0.27/webapps/docs/host-manager-howto.html
+apache-tomcat-10.0.27/webapps/docs/html-host-manager-howto.html
+apache-tomcat-10.0.27/webapps/docs/html-manager-howto.html
+apache-tomcat-10.0.27/webapps/docs/images/add.gif
+apache-tomcat-10.0.27/webapps/docs/images/asf-logo.svg
+apache-tomcat-10.0.27/webapps/docs/images/code.gif
+apache-tomcat-10.0.27/webapps/docs/images/cors-flowchart.png
+apache-tomcat-10.0.27/webapps/docs/images/design.gif
+apache-tomcat-10.0.27/webapps/docs/images/docs-stylesheet.css
+apache-tomcat-10.0.27/webapps/docs/images/docs.gif
+apache-tomcat-10.0.27/webapps/docs/images/fix.gif
+apache-tomcat-10.0.27/webapps/docs/images/fonts/OpenSans400.woff
+apache-tomcat-10.0.27/webapps/docs/images/fonts/OpenSans400italic.woff
+apache-tomcat-10.0.27/webapps/docs/images/fonts/OpenSans600.woff
+apache-tomcat-10.0.27/webapps/docs/images/fonts/OpenSans600italic.woff
+apache-tomcat-10.0.27/webapps/docs/images/fonts/OpenSans700.woff
+apache-tomcat-10.0.27/webapps/docs/images/fonts/OpenSans700italic.woff
+apache-tomcat-10.0.27/webapps/docs/images/fonts/fonts.css
+apache-tomcat-10.0.27/webapps/docs/images/tomcat.gif
+apache-tomcat-10.0.27/webapps/docs/images/tomcat.png
+apache-tomcat-10.0.27/webapps/docs/images/update.gif
+apache-tomcat-10.0.27/webapps/docs/images/void.gif
+apache-tomcat-10.0.27/webapps/docs/index.html
+apache-tomcat-10.0.27/webapps/docs/introduction.html
+apache-tomcat-10.0.27/webapps/docs/jasper-howto.html
+apache-tomcat-10.0.27/webapps/docs/jaspicapi/index.html
+apache-tomcat-10.0.27/webapps/docs/jdbc-pool.html
+apache-tomcat-10.0.27/webapps/docs/jndi-datasource-examples-howto.html
+apache-tomcat-10.0.27/webapps/docs/jndi-resources-howto.html
+apache-tomcat-10.0.27/webapps/docs/jspapi/index.html
+apache-tomcat-10.0.27/webapps/docs/logging.html
+apache-tomcat-10.0.27/webapps/docs/manager-howto.html
+apache-tomcat-10.0.27/webapps/docs/maven-jars.html
+apache-tomcat-10.0.27/webapps/docs/mbeans-descriptors-howto.html
+apache-tomcat-10.0.27/webapps/docs/mbeans-descriptors.dtd
+apache-tomcat-10.0.27/webapps/docs/monitoring.html
+apache-tomcat-10.0.27/webapps/docs/proxy-howto.html
+apache-tomcat-10.0.27/webapps/docs/realm-howto.html
+apache-tomcat-10.0.27/webapps/docs/rewrite.html
+apache-tomcat-10.0.27/webapps/docs/security-howto.html
+apache-tomcat-10.0.27/webapps/docs/security-manager-howto.html
+apache-tomcat-10.0.27/webapps/docs/servletapi/index.html
+apache-tomcat-10.0.27/webapps/docs/setup.html
+apache-tomcat-10.0.27/webapps/docs/ssi-howto.html
+apache-tomcat-10.0.27/webapps/docs/ssl-howto.html
+apache-tomcat-10.0.27/webapps/docs/tribes/developers.html
+apache-tomcat-10.0.27/webapps/docs/tribes/faq.html
+apache-tomcat-10.0.27/webapps/docs/tribes/interceptors.html
+apache-tomcat-10.0.27/webapps/docs/tribes/introduction.html
+apache-tomcat-10.0.27/webapps/docs/tribes/membership.html
+apache-tomcat-10.0.27/webapps/docs/tribes/setup.html
+apache-tomcat-10.0.27/webapps/docs/tribes/status.html
+apache-tomcat-10.0.27/webapps/docs/tribes/transport.html
+apache-tomcat-10.0.27/webapps/docs/virtual-hosting-howto.html
+apache-tomcat-10.0.27/webapps/docs/web-socket-howto.html
+apache-tomcat-10.0.27/webapps/docs/websocketapi/index.html
+apache-tomcat-10.0.27/webapps/docs/windows-auth-howto.html
+apache-tomcat-10.0.27/webapps/docs/windows-service-howto.html
+apache-tomcat-10.0.27/webapps/examples/META-INF/context.xml
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/CookieExample.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/CookieExample.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/HelloWorldExample.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/HelloWorldExample.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings.properties
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings_cs.properties
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings_de.properties
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings_es.properties
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings_fr.properties
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings_ja.properties
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings_ko.properties
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings_pt.properties
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings_pt_BR.properties
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings_ru.properties
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings_zh_CN.properties
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/RequestHeaderExample.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/RequestHeaderExample.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/RequestInfoExample.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/RequestInfoExample.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/RequestParamExample.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/RequestParamExample.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/ServletToJsp.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/ServletToJsp.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/SessionExample.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/SessionExample.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async0$1.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async0.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async0.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async1$1.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async1.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async1.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async2$1.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async2.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async2.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async3.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async3.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/AsyncStockContextListener.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/AsyncStockContextListener.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/AsyncStockServlet.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/AsyncStockServlet.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Stockticker$Stock.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Stockticker$TickListener.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Stockticker.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Stockticker.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/cal/Entries.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/cal/Entries.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/cal/Entry.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/cal/Entry.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/cal/JspCalendar.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/cal/JspCalendar.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/cal/TableBean.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/cal/TableBean.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/checkbox/CheckTest.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/checkbox/CheckTest.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/colors/ColorGameBean.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/colors/ColorGameBean.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilter.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilter.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilterTestServlet.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilterTestServlet.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/dates/JspCalendar.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/dates/JspCalendar.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/error/Smart.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/error/Smart.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/ExampleTagBase.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/ExampleTagBase.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/FooTag.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/FooTag.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/FooTagExtraInfo.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/FooTagExtraInfo.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/LogTag.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/LogTag.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/ValuesTag.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/ValuesTag.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/filters/ExampleFilter.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/filters/ExampleFilter.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/http2/SimpleImagePush.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/http2/SimpleImagePush.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/BookBean.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/BookBean.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/FooBean.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/FooBean.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/ValuesBean.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/ValuesBean.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/el/Functions.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/el/Functions.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/EchoAttributesTag.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/EchoAttributesTag.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/FindBookSimpleTag.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/FindBookSimpleTag.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/HelloWorldSimpleTag.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/HelloWorldSimpleTag.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/RepeatSimpleTag.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/RepeatSimpleTag.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/ShuffleSimpleTag.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/ShuffleSimpleTag.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/TileSimpleTag.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/TileSimpleTag.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/listeners/ContextListener.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/listeners/ContextListener.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/listeners/SessionListener.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/listeners/SessionListener.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter$1.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter$CounterListener.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter$1.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter$NumberWriterListener.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/num/NumberGuessBean.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/num/NumberGuessBean.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/sessions/DummyCart.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/sessions/DummyCart.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/trailers/ResponseTrailers$1.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/trailers/ResponseTrailers$TrailerFieldSupplier.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/trailers/ResponseTrailers.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/trailers/ResponseTrailers.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/util/CookieFilter.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/util/CookieFilter.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/util/HTMLFilter.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/util/HTMLFilter.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/validators/DebugValidator.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/validators/DebugValidator.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/ExamplesConfig.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/ExamplesConfig.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/chat/ChatAnnotation.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/chat/ChatAnnotation.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/Client$1.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/Client.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/Client.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawMessage$ParseException.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawMessage.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawMessage.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardContextListener.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardContextListener.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint$1.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint$2.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint$3$1.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint$3.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$1$1.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$1.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$2.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$MessageType.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$Player.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/Room.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/Room.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/AbstractWebsocketMessage.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/AbstractWebsocketMessage.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/BinaryWebsocketMessage.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/BinaryWebsocketMessage.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/CloseWebsocketMessage.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/CloseWebsocketMessage.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/StringWebsocketMessage.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/StringWebsocketMessage.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoAnnotation.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoAnnotation.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation$1.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation$CompletedFuture.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint$1.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint$EchoMessageHandlerBinary.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint$EchoMessageHandlerText.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoStreamAnnotation.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoStreamAnnotation.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/servers.json
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/Direction.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/Direction.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/Location$1.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/Location.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/Location.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/Snake.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/Snake.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/SnakeAnnotation.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/SnakeAnnotation.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/SnakeTimer$1.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/SnakeTimer.class
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/SnakeTimer.java
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/jsp/debug-taglib.tld
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/jsp/example-taglib.tld
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/jsp/jsp2-example-taglib.tld
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5-migrated-0.0.1.jar
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5-migrated-0.0.1.jar
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/tags/displayProducts.tag
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/tags/helloWorld.tag
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/tags/panel.tag
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/web.xml
+apache-tomcat-10.0.27/webapps/examples/index.html
+apache-tomcat-10.0.27/webapps/examples/jsp/async/async1.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/async/async1.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/async/async3.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/async/async3.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/async/index.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/async/index.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/cal/Entries.java.html
+apache-tomcat-10.0.27/webapps/examples/jsp/cal/Entry.java.html
+apache-tomcat-10.0.27/webapps/examples/jsp/cal/JspCalendar.java.html
+apache-tomcat-10.0.27/webapps/examples/jsp/cal/TableBean.java.html
+apache-tomcat-10.0.27/webapps/examples/jsp/cal/cal1.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/cal/cal1.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/cal/cal2.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/cal/cal2.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/cal/calendar.html
+apache-tomcat-10.0.27/webapps/examples/jsp/cal/login.html
+apache-tomcat-10.0.27/webapps/examples/jsp/checkbox/CheckTest.html
+apache-tomcat-10.0.27/webapps/examples/jsp/checkbox/check.html
+apache-tomcat-10.0.27/webapps/examples/jsp/checkbox/checkresult.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/checkbox/checkresult.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/checkbox/cresult.html
+apache-tomcat-10.0.27/webapps/examples/jsp/colors/ColorGameBean.html
+apache-tomcat-10.0.27/webapps/examples/jsp/colors/clr.html
+apache-tomcat-10.0.27/webapps/examples/jsp/colors/colors.html
+apache-tomcat-10.0.27/webapps/examples/jsp/colors/colrs.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/colors/colrs.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/dates/date.html
+apache-tomcat-10.0.27/webapps/examples/jsp/dates/date.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/dates/date.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/error/er.html
+apache-tomcat-10.0.27/webapps/examples/jsp/error/err.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/error/err.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/error/error.html
+apache-tomcat-10.0.27/webapps/examples/jsp/error/errorpge.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/error/errorpge.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/forward/forward.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/forward/forward.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/forward/fwd.html
+apache-tomcat-10.0.27/webapps/examples/jsp/forward/one.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/forward/one.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/forward/two.html
+apache-tomcat-10.0.27/webapps/examples/jsp/images/code.gif
+apache-tomcat-10.0.27/webapps/examples/jsp/images/execute.gif
+apache-tomcat-10.0.27/webapps/examples/jsp/images/return.gif
+apache-tomcat-10.0.27/webapps/examples/jsp/include/foo.html
+apache-tomcat-10.0.27/webapps/examples/jsp/include/foo.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/include/foo.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/include/inc.html
+apache-tomcat-10.0.27/webapps/examples/jsp/include/include.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/include/include.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/index.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/Functions.java.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/ValuesBean.java.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/ValuesTag.java.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/basic-arithmetic.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/basic-arithmetic.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/basic-arithmetic.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/basic-comparisons.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/basic-comparisons.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/basic-comparisons.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/composite.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/composite.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/composite.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/functions.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/functions.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/functions.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/implicit-objects.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/implicit-objects.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/implicit-objects.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/FooBean.java.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/HelloWorldSimpleTag.java.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/ShuffleSimpleTag.java.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/TileSimpleTag.java.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/jspattribute.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/jspattribute.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/jspattribute.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/shuffle.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/shuffle.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/shuffle.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspx/basic.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspx/basic.jspx
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspx/basic.jspx.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspx/svgexample.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspx/textRotate.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspx/textRotate.jpg
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspx/textRotate.jspx
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspx/textRotate.jspx.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/EchoAttributesTag.java.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/coda.jspf
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/coda.jspf.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/config.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/config.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/config.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/dynamicattrs.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/dynamicattrs.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/dynamicattrs.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/prelude.jspf
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/prelude.jspf.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/BookBean.java.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/FindBookSimpleTag.java.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/Functions.java.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/HelloWorldSimpleTag.java.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/RepeatSimpleTag.java.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/book.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/book.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/book.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/hello.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/hello.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/hello.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/repeat.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/repeat.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/repeat.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/displayProducts.tag.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/hello.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/hello.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/hello.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/helloWorld.tag.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/panel.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/panel.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/panel.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/panel.tag.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/products.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/products.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/products.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsptoserv/ServletToJsp.java.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsptoserv/hello.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/jsptoserv/hello.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsptoserv/jsptoservlet.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/jsptoserv/jsptoservlet.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/jsptoserv/jts.html
+apache-tomcat-10.0.27/webapps/examples/jsp/num/numguess.html
+apache-tomcat-10.0.27/webapps/examples/jsp/num/numguess.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/num/numguess.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/security/protected/error.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/security/protected/error.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/security/protected/index.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/security/protected/index.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/security/protected/login.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/security/protected/login.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/sessions/DummyCart.html
+apache-tomcat-10.0.27/webapps/examples/jsp/sessions/carts.html
+apache-tomcat-10.0.27/webapps/examples/jsp/sessions/carts.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/sessions/carts.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/sessions/crt.html
+apache-tomcat-10.0.27/webapps/examples/jsp/simpletag/foo.html
+apache-tomcat-10.0.27/webapps/examples/jsp/simpletag/foo.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/simpletag/foo.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/snp/snoop.html
+apache-tomcat-10.0.27/webapps/examples/jsp/snp/snoop.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/snp/snoop.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/choose.html
+apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/choose.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/choose.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/foreach.html
+apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/foreach.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/foreach.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/howto.html
+apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/if.html
+apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/if.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/if.jsp.html
+apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/notes.html
+apache-tomcat-10.0.27/webapps/examples/jsp/xml/xml.html
+apache-tomcat-10.0.27/webapps/examples/jsp/xml/xml.jsp
+apache-tomcat-10.0.27/webapps/examples/jsp/xml/xml.jsp.html
+apache-tomcat-10.0.27/webapps/examples/servlets/cookies.html
+apache-tomcat-10.0.27/webapps/examples/servlets/helloworld.html
+apache-tomcat-10.0.27/webapps/examples/servlets/images/code.gif
+apache-tomcat-10.0.27/webapps/examples/servlets/images/execute.gif
+apache-tomcat-10.0.27/webapps/examples/servlets/images/return.gif
+apache-tomcat-10.0.27/webapps/examples/servlets/index.html
+apache-tomcat-10.0.27/webapps/examples/servlets/nonblocking/bytecounter.html
+apache-tomcat-10.0.27/webapps/examples/servlets/reqheaders.html
+apache-tomcat-10.0.27/webapps/examples/servlets/reqinfo.html
+apache-tomcat-10.0.27/webapps/examples/servlets/reqparams.html
+apache-tomcat-10.0.27/webapps/examples/servlets/sessions.html
+apache-tomcat-10.0.27/webapps/examples/websocket/chat.xhtml
+apache-tomcat-10.0.27/webapps/examples/websocket/drawboard.xhtml
+apache-tomcat-10.0.27/webapps/examples/websocket/echo.xhtml
+apache-tomcat-10.0.27/webapps/examples/websocket/index.xhtml
+apache-tomcat-10.0.27/webapps/examples/websocket/snake.xhtml
+apache-tomcat-10.0.27/webapps/host-manager/META-INF/context.xml
+apache-tomcat-10.0.27/webapps/host-manager/WEB-INF/jsp/401.jsp
+apache-tomcat-10.0.27/webapps/host-manager/WEB-INF/jsp/403.jsp
+apache-tomcat-10.0.27/webapps/host-manager/WEB-INF/jsp/404.jsp
+apache-tomcat-10.0.27/webapps/host-manager/WEB-INF/manager.xml
+apache-tomcat-10.0.27/webapps/host-manager/WEB-INF/web.xml
+apache-tomcat-10.0.27/webapps/host-manager/css/manager.css
+apache-tomcat-10.0.27/webapps/host-manager/images/asf-logo.svg
+apache-tomcat-10.0.27/webapps/host-manager/images/tomcat.svg
+apache-tomcat-10.0.27/webapps/host-manager/index.jsp
+apache-tomcat-10.0.27/webapps/manager/META-INF/context.xml
+apache-tomcat-10.0.27/webapps/manager/WEB-INF/jsp/401.jsp
+apache-tomcat-10.0.27/webapps/manager/WEB-INF/jsp/403.jsp
+apache-tomcat-10.0.27/webapps/manager/WEB-INF/jsp/404.jsp
+apache-tomcat-10.0.27/webapps/manager/WEB-INF/jsp/connectorCerts.jsp
+apache-tomcat-10.0.27/webapps/manager/WEB-INF/jsp/connectorCiphers.jsp
+apache-tomcat-10.0.27/webapps/manager/WEB-INF/jsp/connectorTrustedCerts.jsp
+apache-tomcat-10.0.27/webapps/manager/WEB-INF/jsp/sessionDetail.jsp
+apache-tomcat-10.0.27/webapps/manager/WEB-INF/jsp/sessionsList.jsp
+apache-tomcat-10.0.27/webapps/manager/WEB-INF/web.xml
+apache-tomcat-10.0.27/webapps/manager/css/manager.css
+apache-tomcat-10.0.27/webapps/manager/images/asf-logo.svg
+apache-tomcat-10.0.27/webapps/manager/images/tomcat.svg
+apache-tomcat-10.0.27/webapps/manager/index.jsp
+apache-tomcat-10.0.27/webapps/manager/status.xsd
+apache-tomcat-10.0.27/webapps/manager/xform.xsl
+apache-tomcat-10.0.27/bin/catalina.sh
+apache-tomcat-10.0.27/bin/ciphers.sh
+apache-tomcat-10.0.27/bin/configtest.sh
+apache-tomcat-10.0.27/bin/daemon.sh
+apache-tomcat-10.0.27/bin/digest.sh
+apache-tomcat-10.0.27/bin/makebase.sh
+apache-tomcat-10.0.27/bin/migrate.sh
+apache-tomcat-10.0.27/bin/setclasspath.sh
+apache-tomcat-10.0.27/bin/shutdown.sh
+apache-tomcat-10.0.27/bin/startup.sh
+apache-tomcat-10.0.27/bin/tool-wrapper.sh
+apache-tomcat-10.0.27/bin/version.sh
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Nov 28, 2022 8:47:48 AM org.apache.catalina.startup.Catalina stopServer
+SEVERE: Could not contact [localhost:8005] (base port [8005] and offset [0]). Tomcat may not be running.
+Nov 28, 2022 8:47:48 AM org.apache.catalina.startup.Catalina stopServer
+SEVERE: Error stopping Catalina
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/java.net.Socket.connect(Socket.java:558)
+	at java.base/java.net.Socket.<init>(Socket.java:454)
+	at java.base/java.net.Socket.<init>(Socket.java:231)
+	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:692)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:391)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:481)
+
+Tomcat started.
+Cloning into 'conf-and-webapps-file'...
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Nov 28, 2022 8:47:54 AM org.apache.catalina.startup.Catalina stopServer
+SEVERE: Could not contact [localhost:8005] (base port [8005] and offset [0]). Tomcat may not be running.
+Nov 28, 2022 8:47:54 AM org.apache.catalina.startup.Catalina stopServer
+SEVERE: Error stopping Catalina
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/java.net.Socket.connect(Socket.java:558)
+	at java.base/java.net.Socket.<init>(Socket.java:454)
+	at java.base/java.net.Socket.<init>(Socket.java:231)
+	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:692)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:391)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:481)
+
+Tomcat started.
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Tomcat started.
+Finished: SUCCESS

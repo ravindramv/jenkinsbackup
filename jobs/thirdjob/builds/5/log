@@ -1,0 +1,65 @@
+Started by GitHub push by ravindramv
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/thirdjob
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/thirdjob/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ravindramv/firstrepo.git # timeout=10
+Fetching upstream changes from https://github.com/ravindramv/firstrepo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/ravindramv/firstrepo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision ea3e85b25db1143344d67612ba636f1b8ec8ab54 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ea3e85b25db1143344d67612ba636f1b8ec8ab54 # timeout=10
+Commit message: "Update rev.sh"
+ > git rev-list --no-walk 519366c8f338589fc1422bac196911a83e848356 # timeout=10
+[thirdjob] $ /bin/sh -xe /tmp/jenkins6632865063371651600.sh
++ ls
+add.sh
+arydisetnum.sh
+basics.sh
+bc.sh
+chfil.sh
+dissetnum.sh
+elseif.sh
+even.sh
+f1
+f2
+factofsetno.sh
+factorial.sh
+fib.sh
+file1
+file2
+file3
+file4
+file5
+filechar.sh
+fileline.sh
+firstrepo
+fogt70per.sh
+if.sh
+ls.sh
+palin.sh
+patternfi.sh
+r1
+r1.sh
+r2
+r2.sh
+r3
+r4
+r5
+rev.sh
+saturdayass
+scripgit.sh
+scriptst.sh
+snum.sh
+string.sh
+sub.sh
+test1.sh
+test2.sh
++ pwd
+/var/lib/jenkins/workspace/thirdjob
+Finished: SUCCESS

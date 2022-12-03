@@ -1,0 +1,11 @@
+Started on Nov 26, 2022, 6:43:00 PM
+Using strategy: Default
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git ls-remote -h -- https://github.com/ravindramv/firstrepo.git # timeout=10
+Found 5 remote heads on https://github.com/ravindramv/firstrepo.git
+[poll] Latest remote head revision on refs/heads/master is: aeb41253ad8f8edd4d2df31ba1cae9e557bbb631
+Done. Took 0.35 sec
+Changes found

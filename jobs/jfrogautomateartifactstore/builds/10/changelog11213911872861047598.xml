@@ -1,0 +1,9 @@
+commit 480db578b575ef9683dd329066666728ba917b9d
+tree 51c934c25b880fbffd0c632900fb94fec77b68a3
+parent e2caebb3dd1515a0da04564118b0b0f45718ebfd
+author ravindramv <118248297+ravindramv@users.noreply.github.com> 2022-12-02 19:36:16 +0530
+committer GitHub <noreply@github.com> 2022-12-02 19:36:16 +0530
+
+    Update Jenkinsfile2
+
+:100644 100644 582a387f24cf218ba6bf6db056f8ee45e6f6afd5 341dad854a756c50cdf499e1791c7d2c651d103e M	Jenkinsfile2

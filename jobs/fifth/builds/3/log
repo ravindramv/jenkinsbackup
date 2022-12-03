@@ -1,0 +1,32 @@
+Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/fifth
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/fifth/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ravindramv/firstrepo.git # timeout=10
+Fetching upstream changes from https://github.com/ravindramv/firstrepo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/ravindramv/firstrepo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 6010ee86359713fc28dd3eed9faeef8205aff6f4 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6010ee86359713fc28dd3eed9faeef8205aff6f4 # timeout=10
+Commit message: "Update arydisetnum.sh"
+ > git rev-list --no-walk aeb41253ad8f8edd4d2df31ba1cae9e557bbb631 # timeout=10
+[fifth] $ /bin/sh -xe /tmp/jenkins16637256983607360407.sh
++ sh arydisetnum.sh 1 2 3 4 5
+1
+poll scm
+2
+poll scm
+3
+poll scm
+4
+poll scm
+5
+poll scm
+Triggering a new build of [8mha:////4ImXcVNvCRJt9HwnDDWLcLPqCtd8Qh654EyUVbnreMDpAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JP20/NKikgwQCwA7BNZpxAAAAA==[0mfourthjob
+Finished: SUCCESS
